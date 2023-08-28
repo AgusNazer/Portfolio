@@ -1,3 +1,6 @@
+import efset from '../../assets/images/EFSET-C1.png'
+import reactImg from '../../assets/images/React-Cert.png'
+
 const Certifies = () => {
   return (
     <div className="text-center ">
@@ -17,7 +20,7 @@ const Certifies = () => {
               </span>
             </a>
             <img
-    src="../../src/assets/images/EFSET-C1.png"
+    src={efset}
     alt="Thumbnail"
     className="w-2/3 h-auto mt-4 mx-auto"
   />
@@ -34,7 +37,7 @@ const Certifies = () => {
               </span>
             </a>
             <img
-    src="../../src/assets/images/EFSET-C1.png"
+    src={efset}
     alt="Thumbnail"
     className="w-2/3 h-auto mt-4 mx-auto"
   />
@@ -52,7 +55,7 @@ const Certifies = () => {
               See more...
             </a>
             <img
-    src="../../src/assets/images/React-Cert.png"
+    src={reactImg}
     alt="Thumbnail"
     className="w-2/3 h-auto mt-4 mx-auto"
   />
