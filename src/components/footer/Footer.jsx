@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return(
-        <div className="text-center mt-10">
+        <div id="contact-section" className="text-center mt-10">
         <h2 className="text-3xl">CONTACT ME</h2>
         <div id="contact" className="flex flex-wrap justify-center mt-6">
           <a

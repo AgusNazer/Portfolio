@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
-    <div className="text-center mt-10">
-    <h1 className="text-3xl mb-16">Projects</h1>
+    <div id="proyects-section" className="text-center mt-10">
+    <h1 className="text-3xl mb-5">Projects</h1>
   
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
@@ -15,7 +15,7 @@ const Projects = () => {
         // href="https://github.com/PuebladelMar/SoyPuebla.git"
         href="https://soy-puebla-deploy.vercel.app/"
         target="_blank"
-        className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+        className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
       >
         See More...
       </a>
@@ -36,7 +36,7 @@ const Projects = () => {
         <a
           href="https://github.com/AgusNazer/PI-Food-AgusNazer"
           target="_blank"
-          className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>
@@ -57,7 +57,7 @@ const Projects = () => {
         <a
           href="https://github.com/No-Country/c9-49-m-flutter.git"
           target="_blank"
-          className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>
@@ -78,7 +78,7 @@ const Projects = () => {
         //   href="https://github.com/AgusNazer/preEntregaNazer.git"
           href="https://agusnazer.github.io/entregaFinalNazer/"
           target="_blank"
-          className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>
@@ -94,7 +94,7 @@ const Projects = () => {
         <a
           href="https://yourcalorieapp.netlify.app/"
           target="_blank"
-          className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>
@@ -113,7 +113,7 @@ const Projects = () => {
         <a
           href="https://agusnazer.github.io/3entrega/"
           target="_blank"
-          className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>

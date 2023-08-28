@@ -4,6 +4,7 @@ import About from "../about/About";
 import Projects from "../projects/Projects";
 import TechSkills from "../techs/TechSkills";
 
+
 const Home = () => {
   return (
 

@@ -1,6 +1,6 @@
 const TechSkills = () => {
   return (
-    <>
+    <div id="techskills-section">
     <h1 className="text-3xl text-center mb-8 ">My skills</h1>
     <div className="flex flex-wrap justify-center items-center gap-8">
       <a
@@ -180,7 +180,7 @@ const TechSkills = () => {
         />
       </a>
     </div>
-    </>
+    </div>
   );
 };
 

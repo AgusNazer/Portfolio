@@ -6,14 +6,30 @@ import  About from './views/about/About'
 import  TechSkills from './views/techs/TechSkills'
 import Proyects from './views/projects/Projects'
 import Footer from './components/footer/Footer'
-// import ContactMe from './views/contact/ContactMe'
 import './App.css'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+
 
 
 import { Routes ,Route } from 'react-router-dom'
 
 function App() {
+ const location =useLocation();
 
+ useEffect(() => {
+  // Si la ubicación tiene un hash, intenta hacer scroll suave hacia esa ancla
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+}, [location]);
 
   return (
 
@@ -26,7 +42,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/Techs" element={ <TechSkills /> } />
         <Route path="/proyects" element={ <Proyects /> } />
-        {/* <Route path="/contact" element={ <ContactMe /> } /> */}
+        <Route path="/contact" element={ <Footer /> } />
       </Routes>
        {/* <Footer/> */}
       </div>

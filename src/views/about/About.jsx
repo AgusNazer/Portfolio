@@ -1,6 +1,9 @@
+import { Link } from 'react-router-dom';
+
 const About = () => {
   return (
-    <div  className="text-center">
+    <div id="about-section" className="text-center">
+   
     <h2 className="mb-10">
     <div className="relative">
       <div className="w-32 h-32 mx-auto mb-6">
