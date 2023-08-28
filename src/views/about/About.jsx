@@ -2,6 +2,14 @@ const About = () => {
   return (
     <div  className="text-center">
     <h2 className="mb-10">
+    <div className="relative">
+      <div className="w-32 h-32 mx-auto mb-6">
+      <img
+        src="../../src/assets/images/cvPic.jpeg"
+        alt="Avatar"
+        className="w-full h-full object-cover rounded-full border-2 border-blue-400 border-opacity-75 mx-auto mb-4"/>
+      </div>
+      </div>
     <span className="text-3xl">ABOUT ME</span>
     <p>Hello! 👋🏻 I am Agustin, I'm a entusiast developer.</p>
     <p>

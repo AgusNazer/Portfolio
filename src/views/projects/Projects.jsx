@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div className="text-center mt-10">
-    <h1 className="text-3xl mb-6">Projects</h1>
+    <h1 className="text-3xl mb-16">Projects</h1>
   
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
@@ -12,12 +12,18 @@ const Projects = () => {
         it's a simple app where the data is extracted from the Spoonacular API.
       </p>
       <a
-        href="https://github.com/PuebladelMar/SoyPuebla.git"
+        // href="https://github.com/PuebladelMar/SoyPuebla.git"
+        href="https://soy-puebla-deploy.vercel.app/"
         target="_blank"
         className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
       >
         See More...
       </a>
+      <img
+    src="../../src/assets/images/PdM2.png"
+    alt="Thumbnail"
+    className="w-full h-auto mt-4"
+  />
     </div>
   
       <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
@@ -34,6 +40,11 @@ const Projects = () => {
         >
           See More...
         </a>
+        <img
+    src="../../src/assets/images/Pi-Foods.png"
+    alt="Thumbnail"
+    className="w-full h-auto mt-4"
+  />
       </div>
   
       <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
@@ -50,6 +61,11 @@ const Projects = () => {
         >
           See More...
         </a>
+        <img
+    src="../../src/assets/images/SpeakEasy.png"
+    alt="Thumbnail"
+    className="w-full h-auto mt-4"
+  />
       </div>
   
       <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
@@ -82,6 +98,11 @@ const Projects = () => {
         >
           See More...
         </a>
+        <img
+    src="../../src/assets/images/RecipeApp.png"
+    alt="Thumbnail"
+    className="w-full h-auto mt-4"
+  />
       </div>
       <div className="flex flex-col justify-between h-full p-4 bg-white rounded-lg shadow-md">
         <h1 className="text-2xl">Cofee-app</h1>
@@ -90,12 +111,17 @@ const Projects = () => {
           This is my first web page, made it with HTML and CSS. 
         </p>
         <a
-          href="https://yourcalorieapp.netlify.app/"
+          href="https://agusnazer.github.io/3entrega/"
           target="_blank"
           className="self-center block mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
         >
           See More...
         </a>
+        <img
+    src="../../src/assets/images/CoffeeApp.png"
+    alt="Thumbnail"
+    className="w-full h-auto mt-4"
+  />
       </div>
     </div>
   </div>

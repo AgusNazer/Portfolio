@@ -2,8 +2,10 @@ const Certifies = () => {
   return (
     <div className="text-center ">
       <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
+      <section className=" space-x-10">
       <a className=" mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">Spanish version</a>
       <a className=" mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">English version</a>
+      </section>
       <div className="mt-4 grid gap-4 md:grid-cols-3  rounded-lg shadow-md mb-10">
         <div className="">
           <div className="mt-10">
@@ -14,6 +16,11 @@ const Certifies = () => {
                 See More...
               </span>
             </a>
+            <img
+    src="../../src/assets/images/EFSET-C1.png"
+    alt="Thumbnail"
+    className="w-2/3 h-auto mt-4 mx-auto"
+  />
           </div>
           <br />
         </div>
@@ -26,6 +33,11 @@ const Certifies = () => {
                 See More...
               </span>
             </a>
+            <img
+    src="../../src/assets/images/EFSET-C1.png"
+    alt="Thumbnail"
+    className="w-2/3 h-auto mt-4 mx-auto"
+  />
           </div>
           <br />
         </div>
@@ -39,6 +51,11 @@ const Certifies = () => {
             >
               See more...
             </a>
+            <img
+    src="../../src/assets/images/React-Cert.png"
+    alt="Thumbnail"
+    className="w-2/3 h-auto mt-4 mx-auto"
+  />
           </div>
         </div>
       </div>

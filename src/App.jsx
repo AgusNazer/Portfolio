@@ -6,7 +6,7 @@ import  About from './views/about/About'
 import  TechSkills from './views/techs/TechSkills'
 import Proyects from './views/projects/Projects'
 import Footer from './components/footer/Footer'
-import ContactMe from './views/contact/ContactMe'
+// import ContactMe from './views/contact/ContactMe'
 import './App.css'
 
 
@@ -26,7 +26,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/Techs" element={ <TechSkills /> } />
         <Route path="/proyects" element={ <Proyects /> } />
-        <Route path="/contact" element={ <ContactMe /> } />
+        {/* <Route path="/contact" element={ <ContactMe /> } /> */}
       </Routes>
        {/* <Footer/> */}
       </div>

@@ -53,47 +53,45 @@ const Navbar = () => {
                 </svg>
               </button>
             </div>
-            {/* {menuOpen   && (
-                <div className="h-16 w-16 overflow-hidden rounded-full">
-                  <img
-                    src="../../src/assets/images/dev.png"
-                    alt="avatar-pic"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              )} */}
+            <div className="absolute inset-y-0 left-0 hidden sm:flex items-center">
+          <img
+            src="../../src/assets/images/code.png"
+            alt="Icono"
+            className="w-20 h-20 rounded-md"
+          />
+        </div>
 
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center space-x-4">
                   <div className="flex space-x-4">
-                    <NavLink to= './'
-                     
+                    <NavLink
+                      to="./"
                       className="text-white hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
                       Home
                     </NavLink>
-                    <NavLink to= './about'
-                      
+                    <NavLink
+                      to="./about"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                     >
                       About
                     </NavLink>
-                    <NavLink to='./Techs'
-                      
+                    <NavLink
+                      to="./Techs"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                     >
                       Tech Stack
                     </NavLink>
-                    <NavLink to= './proyects'
-                      
+                    <NavLink
+                      to="./proyects"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                     >
                       Projects
                     </NavLink>
-                    <NavLink to= './contact'
-                      
+                    <NavLink
+                      to="./contact"
                       className="text-white hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
@@ -107,15 +105,9 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`${
-            menuOpen ? "block" : "hidden"
-          } sm:hidden`}
+          className={`${menuOpen ? "block" : "hidden"} sm:hidden`}
           id="mobile-menu"
         >
-       
-
-          
-         
           <div className="space-y-1 px-2 pb-3 pt-2">
             <a
               href="#"
@@ -156,4 +148,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
