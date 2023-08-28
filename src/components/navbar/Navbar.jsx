@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import navbarImg from '../../assets/images/code.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = () => {
             </div>
             <div className="absolute inset-y-0 left-0 hidden sm:flex items-center">
           <img
-            src="../../src/assets/images/code.png"
+            src={navbarImg}
             alt="Icono"
             className="w-20 h-20 rounded-md"
           />

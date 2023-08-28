@@ -1,3 +1,11 @@
+
+ 
+ import Pdm from '../../assets/images/PdM2.png'
+ import piFoods from '../../assets/images/PI-Foods.png'
+ import speakEasy from '../../assets/images/SpeakEasy.png'
+ import recipeImg from '../../assets/images/RecipeApp.png'
+ import coffeeImg from '../../assets/images/CoffeeApp.png'
+
 const Projects = () => {
   return (
     <div id="proyects-section" className="text-center mt-10">
@@ -20,7 +28,7 @@ const Projects = () => {
         See More...
       </a>
       <img
-    src="../../src/assets/images/PdM2.png"
+    src={Pdm}
     alt="Thumbnail"
     className="w-full h-auto mt-4"
   />
@@ -41,7 +49,7 @@ const Projects = () => {
           See More...
         </a>
         <img
-    src="../../src/assets/images/Pi-Foods.png"
+    src={piFoods}
     alt="Thumbnail"
     className="w-full h-auto mt-4"
   />
@@ -62,7 +70,7 @@ const Projects = () => {
           See More...
         </a>
         <img
-    src="../../src/assets/images/SpeakEasy.png"
+    src={speakEasy}
     alt="Thumbnail"
     className="w-full h-auto mt-4"
   />
@@ -99,7 +107,7 @@ const Projects = () => {
           See More...
         </a>
         <img
-    src="../../src/assets/images/RecipeApp.png"
+    src={recipeImg}
     alt="Thumbnail"
     className="w-full h-auto mt-4"
   />
@@ -118,7 +126,7 @@ const Projects = () => {
           See More...
         </a>
         <img
-    src="../../src/assets/images/CoffeeApp.png"
+    src={coffeeImg}
     alt="Thumbnail"
     className="w-full h-auto mt-4"
   />

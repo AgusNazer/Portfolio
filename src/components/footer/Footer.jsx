@@ -1,5 +1,4 @@
-
-
+import imgEmail from '../../assets/images/email.jpeg'
 const Footer = () => {
     return(
         <div id="contact-section" className="text-center mt-10">
@@ -35,11 +34,11 @@ const Footer = () => {
             target="_blank"
           >
             <img
-              src="../../src/assets/images/email.jpeg"
+              src={imgEmail}
               className="w-16 h-16"
               alt="Gmail"
             />
-            <h2 className="mt-2">Gmail</h2>
+            <h2 className="mt-2">Email</h2>
           </a>
         </div>
       </div>
