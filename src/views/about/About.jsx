@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import avatarImg from '../../assets/images/cvPic.jpeg'
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
     <div className="relative">
       <div className="w-32 h-32 mx-auto mb-6">
       <img
-        src="../../src/assets/images/cvPic.jpeg"
+        src={avatarImg}
         alt="Avatar"
         className="w-full h-full object-cover rounded-full border-2 border-blue-400 border-opacity-75 mx-auto mb-4"/>
       </div>
