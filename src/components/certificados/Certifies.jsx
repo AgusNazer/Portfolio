@@ -1,0 +1,49 @@
+const Certifies = () => {
+  return (
+    <div className="text-center ">
+      <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
+      <a className=" mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">Spanish version</a>
+      <a className=" mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">English version</a>
+      <div className="mt-4 grid gap-4 md:grid-cols-3  rounded-lg shadow-md mb-10">
+        <div className="">
+          <div className="mt-10">
+            <h3>FullStack Developer</h3>
+            <h4 className="mb-4 text-lg">Henry's bootcamp</h4>
+            <a href="My link al certificado" target="blank" class="">
+              <span className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+                See More...
+              </span>
+            </a>
+          </div>
+          <br />
+        </div>
+        <div className="mt-10">
+          <div className="">
+            <h3>EF English Test</h3>
+            <h4 className="mb-4 text-lg">English Level certification</h4>
+            <a href="https://www.efset.org/cert/97y7TS" target="blank" class="">
+              <span className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+                See More...
+              </span>
+            </a>
+          </div>
+          <br />
+        </div>
+        <div className="mb-8 mt-10">
+          <div>
+            <h3>Frontend react</h3>
+            <h4 className="mb-4 text-lg">Coder House </h4>
+            <a
+              href="https://www.coderhouse.com/certificados/63d9aef3645fb0000ea3ae6c"
+              className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+            >
+              See more...
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Certifies;
