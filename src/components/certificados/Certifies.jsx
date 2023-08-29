@@ -5,15 +5,15 @@ const Certifies = () => {
   return (
     <div className="text-center ">
       <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
-      <section className=" flex-center  flex-wrap">
-      <a className=" mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">Spanish version</a>
-      <a className=" mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://github.com/AgusNazer">English version</a>
+      <section className=" flex-center flex-wrap flex-col">
+      <a className=" m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 sm:order-last" href="https://drive.google.com/file/d/1pL4Nxt1cumls9fEnkdUsfB1Z7EUwgJpX/view?usp=sharing" target='_blank'>Spanish version</a>
+      <a className=" m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 sm:order-first" href="https://drive.google.com/file/d/1BRi8FZ5lP45yk1UjgEVBuIAbj6UfAy2l/view?usp=sharing" target='_blank'>  English version</a>
       </section>
       <div className="mt-4 grid gap-4 md:grid-cols-3  rounded-lg shadow-md mb-10">
         <div className="">
           <div className="mt-10">
             <h3>FullStack Developer</h3>
-            <h4 className="mb-4 text-lg">Henry's bootcamp</h4>
+            <h4 className="mb-4 text-lg">Henry's bootcamp</h4>href="https://drive.google.com/file/d/1pL4Nxt1cumls9fEnkdUsfB1Z7EUwgJpX/view?usp=sharing" target=''
             <a href="My link al certificado" target="blank" class="">
               <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                 See More...

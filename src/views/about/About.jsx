@@ -23,7 +23,7 @@ const About = () => {
       Being a creative person I have focused mainly on the frontend area,
       and I believe the solutions can be solved efficiently where design,
       user experience and functionality are important parts in the
-      development of any web application. But i like to say im a frontend
+      development of any web application. I like to say Im a frontend
       developer with knowledge in backend too.
     </p><br></br>
     <p>
