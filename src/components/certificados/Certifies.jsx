@@ -15,14 +15,14 @@ const Certifies = () => {
             <h3>FullStack Developer</h3>
             <h4 className="mb-4 text-lg">Henry's bootcamp</h4>
             <a href="My link al certificado" target="blank" class="">
-              <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+              <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                 See More...
               </span>
             </a>
             <img
     src={efset}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-4 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto"
   />
           </div>
           <br />
@@ -39,7 +39,7 @@ const Certifies = () => {
             <img
     src={efset}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-4 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto"
   />
           </div>
           <br />
@@ -57,7 +57,7 @@ const Certifies = () => {
             <img
     src={reactImg}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-4 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto"
   />
           </div>
         </div>
