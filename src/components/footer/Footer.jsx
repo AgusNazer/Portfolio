@@ -1,4 +1,6 @@
-import imgEmail from '../../assets/images/email.jpeg'
+// import imgEmail from '../../assets/images/email.png' 
+
+
 const Footer = () => {
     return(
         <div id="contact-section" className="text-center mt-10">
@@ -33,12 +35,10 @@ const Footer = () => {
             className="mx-4 my-2 flex flex-col items-center"
             target="_blank"
           >
-            <img
-              src={imgEmail}
-              className="w-16 h-16"
-              alt="Gmail"
-            />
-            <h2 className="mt-2">Email</h2>
+            <img src="https://img.icons8.com/color/48/000000/gmail-new.png"
+            className="w-16 h-16"
+          />
+            <h2 className="mt-2">Gmail</h2>
           </a>
         </div>
       </div>
