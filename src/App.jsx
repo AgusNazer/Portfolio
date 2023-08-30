@@ -9,14 +9,15 @@ import Footer from './components/footer/Footer'
 import './App.css'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
-
-
-
 import { Routes ,Route } from 'react-router-dom'
+
+
 
 function App() {
  const location =useLocation();
+
+
+ 
 
  useEffect(() => {
   // Si la ubicación tiene un hash, intenta hacer scroll suave hacia esa ancla
@@ -33,11 +34,13 @@ function App() {
 
   return (
 
-      <div>
+      <div >
        <Navbar/>
        {/* <Home/> */}
-       <br />
+       
+      
        <Routes>
+      
         <Route path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/techs" element={ <TechSkills /> } />
