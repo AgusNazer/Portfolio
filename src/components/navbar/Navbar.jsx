@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import { NavLink } from "react-router-dom";
 import navbarImg from '../../assets/images/code.png'
 
@@ -6,9 +6,13 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [msjLogo, setMsjLogo] = useState(false); 
 
+ 
+
+
   const toggleMobileMenu = () => {
     setMenuOpen(!menuOpen);
   };
+ 
 
   const logoMsj = () => {
     setMsjLogo(alert('hey there!'))
@@ -68,13 +72,14 @@ const Navbar = () => {
           />
           </NavLink>
         </div>
+      
 
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center space-x-4">
                   <div className="flex space-x-4">
                     <NavLink
-                      to="./"
+                      to="/#home-section"
                       className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
@@ -83,18 +88,21 @@ const Navbar = () => {
                     <NavLink
                       to="/#about-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                    
                     >
                       About
                     </NavLink>
                     <NavLink
-                      to="/#techskills-section"
+                      to="/#techs-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                      aria-current="page"
                     >
                       Tech Stack
                     </NavLink>
                     <NavLink
                       to="/#proyects-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                      aria-current="page"
                     >
                       Projects
                     </NavLink>
@@ -111,14 +119,15 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+   
 
         <div
           className={`${menuOpen ? "block" : "hidden"} sm:hidden`}
           id="mobile-menu"
         >
-          <div className="space-y-1 px-2 pb-3 pt-2">
+          <div className="space-y-1 px-2 pb-3 pt-2 mobile-menu">
             <a
-              href="#"
+              href="/#home-section"
               className=" text-white hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-"
               aria-current="page"
             >
@@ -131,7 +140,7 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="/#techskills-section"
+              href="/#techs-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
               Tech Stack
@@ -139,12 +148,14 @@ const Navbar = () => {
             <a
               href="/#proyects-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              aria-current="page"
             >
               Projects
             </a>
             <a
               href="/#contact-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              aria-current="page"
             >
               Contact me
             </a>
@@ -152,6 +163,7 @@ const Navbar = () => {
         </div>
       </nav>
     </div>
+    
   );
 };
 

@@ -22,7 +22,7 @@ const Certifies = () => {
             <img
     src={efset}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-8 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
   />
           </div>
           <br />
@@ -39,7 +39,7 @@ const Certifies = () => {
             <img
     src={efset}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-8 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
   />
           </div>
           <br />
@@ -57,7 +57,7 @@ const Certifies = () => {
             <img
     src={reactImg}
     alt="Thumbnail"
-    className="w-2/3 h-auto mt-8 mx-auto"
+    className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
   />
           </div>
         </div>
