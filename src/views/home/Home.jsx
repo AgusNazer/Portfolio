@@ -7,6 +7,7 @@ import TechSkills from "../techs/TechSkills";
 import Swal from 'sweetalert2'
 import Sidebar from "../../components/sidebar/Sidebar";
 import { FaMoon,FaSun } from 'react-icons/fa6'
+import sunImg from "../../assets/images/sun.jpeg";
 
 
 const Home = () => {
@@ -49,8 +50,15 @@ const Home = () => {
             style={{ background: 'none', border: 'none' }}
           >
             
-            <div className='fixed top-64 right-0 p-4'>
-        <h2>{darkMode ? <FaSun size='2rem' /> : <FaMoon size='2rem' />}</h2>
+            <div className='fixed top-54 left-1 p-4'>
+        {/* <h2>{darkMode ? <FaSun size='2rem' /> : <FaMoon size='2rem' />}</h2> */}
+        <h2>
+        {darkMode ? (
+          <img src={sunImg} alt="Sun" style={{ width: "2rem",filter: darkMode ? "invert(100%)" : "none"   }} />
+          ) : (
+          <FaMoon size="2rem" />
+        )}
+      </h2>
       </div>
             
           </button>

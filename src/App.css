@@ -62,7 +62,7 @@ body::before {
 }
 
 body::before {
-  background: linear-gradient(45deg, #7eb2d4, #5999ce, #1465bb, #b3c4ca, #f5cee1);
+  background: linear-gradient(45deg, #7eb2d4, #5999ce, #414951, #b3c4ca, #f5cee1);
   opacity: 0.5;
   filter: blur(3px); /* Agrega un ligero efecto de desenfoque */
   content: '';

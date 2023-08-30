@@ -10,7 +10,7 @@ const About = () => {
       <img
         src={avatarImg}
         alt="Avatar"
-        className="w-full h-full object-cover rounded-full border-2 border-blue-400 border-opacity-75 mx-auto mb-4"/>
+        className="w-full h-full object-cover rounded-full border-2 border-blue-900 border-opacity-75 mx-auto mb-4"/>
       </div>
       </div>
     <span className="text-3xl">ABOUT ME</span>
