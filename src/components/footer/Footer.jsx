@@ -1,4 +1,4 @@
-// import imgEmail from '../../assets/images/email.png' 
+import imgEmail from '../../assets/images/email.png' 
 
 
 const Footer = () => {
@@ -35,7 +35,7 @@ const Footer = () => {
             className="mx-4 my-2 flex flex-col items-center"
             target="_blank"
           >
-            <img src="../../src/assets/images/email.png"
+            <img src={imgEmail}
             className="w-16 h-16"
           />
             <h2 className="mt-2">Email</h2>
