@@ -49,7 +49,7 @@ const Home = () => {
             style={{ background: 'none', border: 'none' }}
           >
             
-            <div className='fixed top-1/3 right-0 p-4'>
+            <div className='fixed top-64 right-0 p-4'>
         <h2>{darkMode ? <FaSun size='2rem' /> : <FaMoon size='2rem' />}</h2>
       </div>
             
