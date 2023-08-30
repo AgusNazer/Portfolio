@@ -18,7 +18,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">Henry's bootcamp</h4>
             <a href="My link al certificado" target="blank" class="">
               <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                See More...
+                Go into...
               </span>
             </a>
             <img
@@ -35,7 +35,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">English Level certification</h4>
             <a href="https://www.efset.org/cert/97y7TS" target="blank" class="">
               <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                See More...
+                Go into...
               </span>
             </a>
             <img
@@ -54,7 +54,7 @@ const Certifies = () => {
               href="https://www.coderhouse.com/certificados/63d9aef3645fb0000ea3ae6c"
               className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
             >
-              See more...
+              Go into...
             </a>
             <img
     src={reactImg}

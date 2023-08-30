@@ -20,10 +20,9 @@ const About = () => {
       teamwork.
     </p><br></br>
     <p>
-      Being a creative person I have focused mainly on the frontend area,
-      and I believe the solutions can be solved efficiently where design,
-      user experience and functionality are important parts in the
-      development of web application. I like to say Im a frontend
+      Being a creative person I have focused mainly on the frontend area.
+      From this position, I can contribute to design, user experience, 
+      and functionality to provide solutions. I like to say Im a frontend
       developer with knowledge in backend.
     </p><br></br>
     <p>
