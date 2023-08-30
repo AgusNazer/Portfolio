@@ -23,14 +23,17 @@ const About = () => {
       Being a creative person I have focused mainly on the frontend area,
       and I believe the solutions can be solved efficiently where design,
       user experience and functionality are important parts in the
-      development of any web application. I like to say Im a frontend
-      developer with knowledge in backend too.
+      development of web application. I like to say Im a frontend
+      developer with knowledge in backend.
     </p><br></br>
     <p>
       I discover my passion for programmin 2 years ago, and since this date
       I started to study by myself. Then I started with some courses about
-      html and css and at this point I really discover that I can bring
-      solution for people.
+      html and css and then I learned about other technologies and I started 
+      to build some projects.
+      Then I decide  keep learning and I started a coding bootcamp at Soy Henry,
+      where I learnded technical skills, but I want to emphasize the soft skills 
+      I developed during the bootcamp. I learned to work in teams and communicate effectively.
     </p>
   </h2>
   </div>

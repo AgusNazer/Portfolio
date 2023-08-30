@@ -5,10 +5,12 @@ const Certifies = () => {
   return (
     <div className="text-center ">
       <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
-      <div className="flex-center  md:flex-col md:space-y-2 md:items-center">
-      <a className="md:m-4flex-center  md:flex-col md:space-y-2 md:items-center py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1pL4Nxt1cumls9fEnkdUsfB1Z7EUwgJpX/view?usp=sharing" target='_blank'>Spanish version</a>
-      <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1BRi8FZ5lP45yk1UjgEVBuIAbj6UfAy2l/view?usp=sharing" target='_blank'>English version</a>
-    </div>
+      
+  <div class="flex flex-wrap justify-center gap-2 ">
+    <a class="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1pL4Nxt1cumls9fEnkdUsfB1Z7EUwgJpX/view?usp=sharing" target="_blank">Spanish version</a>
+    <a class="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1BRi8FZ5lP45yk1UjgEVBuIAbj6UfAy2l/view?usp=sharing" target="_blank">English version</a>
+  </div>
+
       <div className="mt-4 grid gap-4 md:grid-cols-3  rounded-lg shadow-md mb-10">
         <div className="">
           <div className="mt-10">

@@ -21,7 +21,7 @@ const Navbar = () => {
     <div>
       <nav className="bg-gray-800">
         <div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
-          <div className="relative flex h-24 items-center justify-between">
+          <div className="relative flex h- items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
@@ -33,10 +33,10 @@ const Navbar = () => {
                 <span className="absolute -inset-0.5"></span>
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`block h-6 w-6 ${menuOpen ? "hidden" : "block"}`}
+                  className={`block h-6 w-6 mt-16 ml-4 ${menuOpen ? "hidden" : "block"}`}
                   fill="none"
                   viewBox="0 0 24 24"
-                  strokeWidth="1.5"
+                  strokeWidth="3"
                   stroke="currentColor"
                   aria-hidden="true"
                 >
@@ -67,7 +67,7 @@ const Navbar = () => {
           <img
             src={navbarImg}
             alt="Icono"
-            className="w-20 h-20 rounded-md"
+            className="w-16 h-12 rounded-md"
             onClick={logoMsj}
           />
           </NavLink>
@@ -122,7 +122,7 @@ const Navbar = () => {
    
 
         <div
-          className={`${menuOpen ? "block" : "hidden"} sm:hidden`}
+          className={`${menuOpen ? "block mt-0" : "hidden"} sm:hidden`}
           id="mobile-menu"
         >
           <div className="space-y-1 px-2 pb-3 pt-2 mobile-menu">
