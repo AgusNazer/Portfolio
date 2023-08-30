@@ -28,7 +28,7 @@ const Home = () => {
   }, []);
   return (
 
-    <div id="home-section" className="m-28">
+    <div id="home-section" className="m-16">
       <Sidebar/>
      <About style={{ margin: '10px' }} />
       <Certifies  />
