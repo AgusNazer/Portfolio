@@ -1,4 +1,6 @@
-import imgEmail from '../../assets/images/email.png' 
+import imgEmail from '../../assets/images/email.jpeg' 
+import githubImg from "../../assets/images/github4.png";
+import inImg from "../../assets/images/in.webp";
 
 
 const Footer = () => {
@@ -12,8 +14,8 @@ const Footer = () => {
             target="_blank"
           >
             <img
-              src="https://img.icons8.com/nolan/64/linkedin.png"
-              className="w-16 h-16"
+              src={inImg}
+              className="w-16 h-16 brightness-110 mix-blend-multiply"
               alt="LinkedIn"
             />
             <h2 className="mt-2">LinkedIn</h2>
@@ -24,8 +26,8 @@ const Footer = () => {
             target="_blank"
           >
             <img
-              src="https://img.icons8.com/stickers/100/000000/github.png"
-              className="w-16 h-16"
+              src={githubImg}
+              className="w-16 h-16 brightness-110 mix-blend-multiply"
               alt="GitHub"
             />
             <h2 className="mt-2">Github</h2>
@@ -36,7 +38,7 @@ const Footer = () => {
             target="_blank"
           >
             <img src={imgEmail}
-            className="w-16 h-16"
+            className="w-16 h-16 brightness-110 mix-blend-multiply"
           />
             <h2 className="mt-2">Email</h2>
           </a>
