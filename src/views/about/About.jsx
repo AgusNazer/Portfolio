@@ -6,7 +6,7 @@ const About = () => {
    
     <h2 className="mb-10">
     <div className="relative">
-      <div className="w-32 h-32 mx-auto mb-6">
+      <div className="w-48 h-48 mx-auto mb-6">
       <img
         src={avatarImg}
         alt="Avatar"
