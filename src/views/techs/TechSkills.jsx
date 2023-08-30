@@ -1,6 +1,7 @@
 
 import dartImg from '../../assets/images/dart.png'
 import expressImg from '../../assets/images/express.png'
+import flutterImg from '../../assets/images/flutter.png'
 
 const TechSkills = () => {
   return (
@@ -91,7 +92,7 @@ const TechSkills = () => {
       </a>
       <a href="" target="_blank">
         <img
-          src="../../src/assets/images/flutter.png"
+          src={flutterImg}
           width="60"
           height="45"
           border="0"
