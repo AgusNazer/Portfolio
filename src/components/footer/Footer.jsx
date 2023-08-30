@@ -35,10 +35,10 @@ const Footer = () => {
             className="mx-4 my-2 flex flex-col items-center"
             target="_blank"
           >
-            <img src="https://img.icons8.com/color/48/000000/gmail-new.png"
+            <img src="../../src/assets/images/email.png"
             className="w-16 h-16"
           />
-            <h2 className="mt-2">Gmail</h2>
+            <h2 className="mt-2">Email</h2>
           </a>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Projects = () => {
       <img
     src={Pdm}
     alt="Thumbnail"
-    className="w-full h-auto mt-4"
+    className="w-full h-auto mt-4 rounded-lg"
   />
     </div>
   
@@ -51,7 +51,7 @@ const Projects = () => {
         <img
     src={piFoods}
     alt="Thumbnail"
-    className="w-full h-auto mt-4"
+    className="w-full h-auto mt-4 rounded-lg"
   />
       </div>
   
@@ -72,7 +72,7 @@ const Projects = () => {
         <img
     src={speakEasy}
     alt="Thumbnail"
-    className="w-full h-auto mt-4"
+    className="w-full h-auto mt-4 rounded-lg"
   />
       </div>
   
@@ -109,7 +109,7 @@ const Projects = () => {
         <img
     src={recipeImg}
     alt="Thumbnail"
-    className="w-full h-auto mt-4"
+    className="w-full h-auto mt-4 rounded-lg"
   />
       </div>
       <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
@@ -128,7 +128,7 @@ const Projects = () => {
         <img
     src={coffeeImg}
     alt="Thumbnail"
-    className="w-full h-auto mt-4"
+    className="w-full h-auto mt-4 rounded-lg"
   />
       </div>
     </div>

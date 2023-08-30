@@ -5,6 +5,7 @@ import About from "../about/About";
 import Projects from "../projects/Projects";
 import TechSkills from "../techs/TechSkills";
 import Swal from 'sweetalert2'
+import Sidebar from "../../components/sidebar/Sidebar";
 
 
 const Home = () => {
@@ -27,7 +28,8 @@ const Home = () => {
   }, []);
   return (
 
-    <div className="m-8">
+    <div id="home-section" className="m-20">
+      <Sidebar/>
      <About style={{ margin: '10px' }} />
       <Certifies  />
       <TechSkills  />
