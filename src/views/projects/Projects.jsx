@@ -7,8 +7,8 @@ import coffeeImg from "../../assets/images/CoffeeApp.png";
 
 const Projects = () => {
   return (
-    <div id="proyects-section" className="text-center mt-20">
-      <h1 className="text-3xl mb-24">Projects</h1>
+    <div id="proyects-section" className="text-center mt-20 mb-20">
+      <h1 className="text-3xl mb-10">Projects</h1>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">

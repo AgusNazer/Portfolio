@@ -3,7 +3,7 @@ import reactImg from '../../assets/images/React-Cert.png'
 
 const Certifies = () => {
   return (
-    <div className="text-center ">
+    <div className="text-center mb-20">
       <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
       
   <div class="flex flex-wrap justify-center gap-2 ">
