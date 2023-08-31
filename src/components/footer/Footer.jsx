@@ -1,6 +1,6 @@
-import imgEmail from '../../assets/images/email.jpeg' 
-import githubImg from "../../assets/images/github4.png";
-import inImg from "../../assets/images/in.webp";
+import imgEmail from '../../assets/images/email2.jpeg' 
+import githubImg from "../../assets/images/github2.jpeg";
+import inImg from "../../assets/images/in.png";
 
 
 const Footer = () => {
@@ -39,6 +39,7 @@ const Footer = () => {
           >
             <img src={imgEmail}
             className="w-16 h-16 brightness-110 mix-blend-multiply"
+            
           />
             <h2 className="mt-2">Email</h2>
           </a>

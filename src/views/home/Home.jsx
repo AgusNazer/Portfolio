@@ -21,7 +21,7 @@ const Home = () => {
 
   useEffect(()=> {
     Swal.fire({
-      title: '<strong>Im still working on this page! </strong>',
+      title: '<strong> Still building... </strong>',
       icon: 'info',
       html:
         'Sorry if u find a bug, Im working on it 👨🏽‍💻 , ' +
