@@ -3,6 +3,7 @@ import piFoods from "../../assets/images/PI-Foods.png";
 import speakEasy from "../../assets/images/SpeakEasy.png";
 import recipeImg from "../../assets/images/RecipeApp.png";
 import coffeeImg from "../../assets/images/CoffeeApp.png";
+import naikiImg from "../../assets/images/NaikiReact.png";
 
 
 const Projects = () => {
@@ -84,12 +85,18 @@ const Projects = () => {
           </p>
           <a
             //   href="https://github.com/AgusNazer/preEntregaNazer.git"
+            
             href="https://agusnazer.github.io/entregaFinalNazer/"
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
             Go into...
           </a>
+          <img
+            src={naikiImg}
+            alt="Thumbnail"
+            className="w-full h-auto mt-4 rounded-lg"
+          />
         </div>
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
