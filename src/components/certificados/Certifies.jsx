@@ -1,5 +1,6 @@
 import efset from '../../assets/images/EFSET-C1.png'
 import reactImg from '../../assets/images/React-Cert.png'
+import HenryImg from '../../assets/images/HenryCert.png'
 
 const Certifies = () => {
   return (
@@ -16,13 +17,13 @@ const Certifies = () => {
           <div className="mt-10">
             <h3>FullStack Developer</h3>
             <h4 className="mb-4 text-lg">Henry's bootcamp</h4>
-            <a href="My link al certificado" target="blank" class="">
+            <a href="https://certificates.soyhenry.com/new-cert?id=3e27ae334de5917f63a52c3dfd45628ca54467b1230471962ac7089b8994fc87" target="blank" class="">
               <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                 Go into...
               </span>
             </a>
             <img
-    src={efset}
+    src={HenryImg}
     alt="Thumbnail"
     className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
   />
