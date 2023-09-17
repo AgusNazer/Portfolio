@@ -1,4 +1,4 @@
-import avatarImg from '../../assets/images/cvPic.jpeg'
+import avatarImg from '../../assets/images/avatar3.jpeg'
 
 
 const About = () => {
