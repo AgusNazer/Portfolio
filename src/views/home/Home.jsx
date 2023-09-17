@@ -6,7 +6,7 @@ import Projects from "../projects/Projects";
 import TechSkills from "../techs/TechSkills";
 import Swal from 'sweetalert2'
 import Sidebar from "../../components/sidebar/Sidebar";
-import { FaMoon,FaSun } from 'react-icons/fa6'
+import { FaMoon } from 'react-icons/fa6'
 import sunImg from "../../assets/images/sun.jpeg";
 
 
