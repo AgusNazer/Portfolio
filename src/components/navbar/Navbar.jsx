@@ -83,35 +83,35 @@ const Navbar = () => {
                       className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
-                      Home
+                      Inicio
                     </NavLink>
                     <NavLink
                       to="/#about-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                     
                     >
-                      About
+                      Acerca de mi
                     </NavLink>
                     <NavLink
                       to="/#techs-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
-                      Tech Stack
+                      Skills
                     </NavLink>
                     <NavLink
                       to="/#proyects-section"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
-                      Projects
+                      Projectos
                     </NavLink>
                     <NavLink
                       to="/#contact-section"
                       className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
                       aria-current="page"
                     >
-                      Contact me
+                      Contactame
                     </NavLink>
                   </div>
                 </div>
@@ -131,33 +131,33 @@ const Navbar = () => {
               className=" text-white hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-"
               aria-current="page"
             >
-              Home
+              Inicio
             </a>
             <a
               href="/#about-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              About
+              Acerca de mí
             </a>
             <a
               href="/#techs-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Tech Stack
+              Skills
             </a>
             <a
               href="/#proyects-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
               aria-current="page"
             >
-              Projects
+              Projectos
             </a>
             <a
               href="/#contact-section"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
               aria-current="page"
             >
-              Contact me
+              Contactame
             </a>
           </div>
         </div>

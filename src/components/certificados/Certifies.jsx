@@ -5,7 +5,7 @@ import HenryImg from '../../assets/images/HenryCert.png'
 const Certifies = () => {
   return (
     <div className="text-center mb-20">
-      <h1 className="text-xl mb-10 ">DOWNLOAD CV</h1> 
+      <h1 className="text-xl mb-10 ">DESCARGA DE CV</h1> 
       
   <div className="flex flex-wrap justify-center gap-2 ">
     <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1pL4Nxt1cumls9fEnkdUsfB1Z7EUwgJpX/view?usp=sharing" target="_blank ">Spanish version</a>
@@ -19,7 +19,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">Henry  bootcamp</h4>
             <a href="https://certificates.soyhenry.com/new-cert?id=3e27ae334de5917f63a52c3dfd45628ca54467b1230471962ac7089b8994fc87" target="blank" className="">
               <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Go into...
+                Vamos allá!...
               </span>
             </a>
             <img
@@ -36,7 +36,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">English Level certification</h4>
             <a href="https://www.efset.org/cert/97y7TS" target="blank">
               <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Go into...
+                Vamos allá!...
               </span>
             </a>
             <img
@@ -55,7 +55,7 @@ const Certifies = () => {
               href="https://www.coderhouse.com/certificados/63d9aef3645fb0000ea3ae6c"
               className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
             >
-              Go into...
+              Vamos allá!...
             </a>
             <img
     src={reactImg}
