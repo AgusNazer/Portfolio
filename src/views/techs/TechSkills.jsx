@@ -6,7 +6,7 @@ import flutterImg from '../../assets/images/flutter.png'
 const TechSkills = () => {
   return (
     <div id="techs-section" className="flex-center flex-wrap m-15 shadow-md">
-    <h1 className="text-3xl text-center mb-8 ">My skills</h1>
+    <h1 className="text-3xl text-center mb-8 ">Skills</h1>
     <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
       <a
         href="https://www.scrum.org/resources/blog/que-es-scrum"

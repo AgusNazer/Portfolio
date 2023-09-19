@@ -6,7 +6,7 @@ import inImg from "../../assets/images/in.png";
 const Footer = () => {
     return(
         <div id="contact-section" className="text-center mt-10">
-        <h2 className="text-3xl">CONTACT ME</h2>
+        <h2 className="text-3xl">CONTÁCTAME</h2>
         <div id="contact" className="flex flex-wrap justify-center mt-6">
           <a
             href="https://www.linkedin.com/in/agust%C3%ADnnazer/"
