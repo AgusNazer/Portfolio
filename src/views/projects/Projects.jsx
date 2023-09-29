@@ -141,8 +141,8 @@ const Projects = () => {
           <h3 className="mb-2">React vite + mongoDb</h3>
           <p className="">
             {/* Was developed for me on the Coderhouse course of React. */}
-            Un challengue que me envío Henry para realizar en 48 hs. 
-            Desarrolle un CRUD completo en un formulario. 
+            Un challengue full stack realizado en 48 hs. 
+            Desarrollé un CRUD completo en un formulario. Utilice MongoDb, mongoose, nodeJs, express, react y tailwind. 
           </p>
           <a
             //   href="https://github.com/AgusNazer/preEntregaNazer.git"
