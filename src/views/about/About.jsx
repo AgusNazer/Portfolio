@@ -16,21 +16,17 @@ const About = () => {
         <h2 className="text-3xl mb-5">Acerca de mí</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          Hola! 👋🏻 Mi nombre es Agustin, y soy un entusiasta desarrollador.
+          Hola! Mi nombre es Agustin, y soy un desarrollador Fullstack, mas enfocado al backend.
         </p>
-        <p className="mt-2">
-          {/* I am a person who seeks professional and personal growth, focused on
-          teamwork. */}
-          Busco formarme y  crecer profesionalmente. 
-        </p>
+        
         <p className="mt-2">
           {/* Being a creative person I have focused mainly on the frontend area.
           From this position, I can contribute to design, user experience, and
           functionality to provide solutions. I like to say I'm a frontend
           developer with knowledge in the backend. */}
-          Soy una persona creativa, con conocimientos de frontend y backend. Me gusta contribuir al diseño,
-          la experiencia de usuario y las funcionalidades. Me gusta entender el porqué de las cosas y como funcionan,
-          Desde la base de datos y el servidor hasta el color de un botón!
+          Si bien soy una persona creativa, que siempre hace foco en la experiencia de usuario,
+          me interesan las aplicaciones full stack porque me gusta entender el funcionamiento tanto 
+          frontend como de backend.
         </p>
         <p className="mt-2">
           {/* I discovered my passion for programming 2 years ago, and since then
@@ -40,11 +36,11 @@ const About = () => {
           bootcamp at Soy Henry, where I learned technical skills. I also want
           to emphasize the soft skills I developed during the bootcamp, such as
           teamwork and effective communication. */}
-          Descubrí mi interés en la programacion hace ya casi dos años, donde empece mi camino en el desarrollo web.
+          {/* Descubrí mi interés en la programacion hace ya casi dos años, donde empece mi camino en el desarrollo web.
           Me di cuenta de lo interesante que podía resultar desarrollar aplicaciones y asi empecé!, Html, css, javascript y luego React.
           Pero me di cuenta que me faltaba algo mas, sentía que no entendía que habia detras de una aplicacion... Hasta 
           que empecé a investigar sobre el mundo del backend, y ahora acá estoy, luego de haber terminado
-          un bootcamp fullstack, interesado en ambas partes por igual, tanto frontend como backend.
+          un bootcamp fullstack, interesado en ambas partes por igual, tanto frontend como backend. */}
         </p>
       </div>
     </div>
