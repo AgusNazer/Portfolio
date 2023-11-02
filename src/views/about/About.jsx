@@ -16,7 +16,8 @@ const About = () => {
         <h2 className="text-3xl mb-5">Acerca de mí</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          Hola! Mi nombre es Agustin, y soy un desarrollador Fullstack, mas enfocado al backend.
+          ¡Hola! Soy Agustín Nazer, un desarrollador Fullstack, apasionado por el mundo blockchain y crypto.
+Creo fuertemente que la Web 3 y la tecnología blockchain están transformando nuestro mundo digital...
         </p>
         
         <p className="mt-2">
@@ -24,9 +25,11 @@ const About = () => {
           From this position, I can contribute to design, user experience, and
           functionality to provide solutions. I like to say I'm a frontend
           developer with knowledge in the backend. */}
-          Si bien soy una persona creativa, que siempre hace foco en la experiencia de usuario,
+          {/* Si bien soy una persona creativa, que siempre hace foco en la experiencia de usuario,
           me interesan las aplicaciones full stack porque me gusta entender el funcionamiento tanto 
-          frontend como de backend.
+          frontend como de backend. */}
+           La Web 3 representa un muno descentralizado, impulsado por la confianza y la privacidad. Blockchain es la base de esta revolución, ofreciendo transparencia y seguridad.
+ Creo que la blockchain seguirá siendo clave en la evolución de finanzas, contratos inteligentes, identidad digital y más. Y esto es mi gran motivación, poder contribuir a este mundo descentralizado sin limites. 
         </p>
         <p className="mt-2">
           {/* I discovered my passion for programming 2 years ago, and since then
