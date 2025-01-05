@@ -32,7 +32,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={Pdm}
@@ -55,7 +55,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al repositorio
           </a>
           <img
             src={piFoods}
@@ -80,7 +80,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al repositorio
           </a>
           <img
             src={speakEasy}
@@ -104,7 +104,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={naikiImg}
@@ -127,7 +127,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={toDoApp}
@@ -151,7 +151,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={formApp}
@@ -175,7 +175,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={recipeImg}
@@ -196,7 +196,7 @@ const Projects = () => {
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >
-            Vamos allá!...
+            Ir al deploy
           </a>
           <img
             src={coffeeImg}

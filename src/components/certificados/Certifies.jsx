@@ -8,7 +8,7 @@ const Certifies = () => {
       <h1 className="text-xl mb-10 ">DESCARGA DE CV</h1> 
       
   <div className="flex flex-wrap justify-center gap-2 ">
-    <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/10NLIvugzlfbkdQ_8VuOLG7r1Y3VLt4Pw/view?usp=drive_link" target="_blank ">Spanish version</a>
+    <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/10NLIvugzlfbkdQ_8VuOLG7r1Y3VLt4Pw/view?usp=drive_link" target="_blank ">Cv Agustin Nazer</a>
     {/* <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1BRi8FZ5lP45yk1UjgEVBuIAbj6UfAy2l/view?usp=sharing" target="_blank ">English version</a> */}
   </div>
 
@@ -19,7 +19,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">Henry  bootcamp</h4>
             <a href="https://certificates.soyhenry.com/new-cert?id=3e27ae334de5917f63a52c3dfd45628ca54467b1230471962ac7089b8994fc87" target="blank" className="">
               <span className= "py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Vamos allá!...
+                Ir al certificado
               </span>
             </a>
             <img
@@ -36,7 +36,7 @@ const Certifies = () => {
             <h4 className="mb-4 text-lg">English Level certification</h4>
             <a href="https://www.efset.org/cert/97y7TS" target="blank">
               <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Vamos allá!...
+                Ir al certificado
               </span>
             </a>
             <img
@@ -55,7 +55,7 @@ const Certifies = () => {
               href="https://www.coderhouse.com/certificados/63d9aef3645fb0000ea3ae6c"
               className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
             >
-              Vamos allá!...
+              Ir al certificado
             </a>
             <img
     src={reactImg}

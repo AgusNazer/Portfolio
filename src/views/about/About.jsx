@@ -16,17 +16,17 @@ const About = () => {
         <h2 className="text-3xl mb-5">Agustin Nazer</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ⭐️¡Hola! Soy Agustín Nazer, un desarrollador Backend con conocimientos tambien en Frontend, apasionado por el mundo del desarrollo.
-           Poder contribuir a soluciones reales a traves de la tecnologia es un desafio grande, en el que me gusta estar involucrado. Estoy cosntantemente
-           aprendiendo nuevas herramientas y explorando nuevos caminos. En definitiva, el codigo es el medio por el cual los desarrolladores buscamos
-           resolver problemas. El codigo siempre estará ahi, las tecnologias pueden ser otras en un fúturo. Por eso, no me ato a ningun framework o herramientas,
-           y siempre trato centrarme en la solucion y no (primeramente) en el medio. 
+          ⭐️¡Hola! Soy Agustín Nazer, un desarrollador Backend con conocimientos también en Frontend, apasionado por el mundo del desarrollo.
+           Poder contribuir a soluciones reales a través de la tecnología es un desafío grande, en el que me gusta estar involucrado. Estoy cosntantemente
+           aprendiendo nuevas herramientas y explorando nuevos caminos. En definitiva, el código es el medio por el cual los desarrolladores buscamos
+           resolver problemas. El código siempre estará ahi, las tecnologías pueden ser otras en un fúturo. Por eso, no me ato a ningun framework o herramienta,
+           y siempre trato de centrarme en la solución y el planteamiento lógico del problema. 
         </p>
         <h2>
-        ⭐️Cuento con mas de 1 año de experiencia real, ademas de haber contrubuido en varios proyectos grupales y proyectos personales.
+        ⭐️Cuento con más de 1 año de experiencia real, además de haber contrubuido en varios proyectos grupales y proyectos personales.
         </h2>
         <h2>
-        ⭐️Actualmente, tambien soy estudiante de la UTN Universidad Tecnologia Nacional, sede Pacheco.
+        ⭐️Actualmente, también soy estudiante de la UTN Universidad Tecnológica Nacional, sede Pacheco.
         </h2>
         
         <p className="mt-2">
