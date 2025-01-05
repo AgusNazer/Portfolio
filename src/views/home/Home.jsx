@@ -19,22 +19,22 @@ const Home = () => {
  };
 
 
-  useEffect(()=> {
-    Swal.fire({
-      title: '<strong> Still building... </strong>',
-      icon: 'info',
-      html:
-        'Sorry if u find a bug, Im working on it 👨🏽‍💻 , ' +
-        '<a href="//sweetalert2.github.io"> ',
-      showCloseButton: true,
-      showCancelButton: false,
-      focusConfirm: false,
-      confirmButtonText:
-        '<i class="fa fa-thumbs-up"></i> Keep going!!',
-      confirmButtonAriaLabel: 'Thumbs up, great!',
+  // useEffect(()=> {
+  //   Swal.fire({
+  //     title: '<strong> Still building... </strong>',
+  //     icon: 'info',
+  //     html:
+  //       'Sorry if u find a bug, Im working on it 👨🏽‍💻 , ' +
+  //       '<a href="//sweetalert2.github.io"> ',
+  //     showCloseButton: true,
+  //     showCancelButton: false,
+  //     focusConfirm: false,
+  //     confirmButtonText:
+  //       '<i class="fa fa-thumbs-up"></i> Keep going!!',
+  //     confirmButtonAriaLabel: 'Thumbs up, great!',
      
-    })
-  }, []);
+  //   })
+  // }, []);
   return (
     <div className={`App ${darkMode ? 'dark' : ''}`}>
 

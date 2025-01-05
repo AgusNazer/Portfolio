@@ -23,7 +23,7 @@ const About = () => {
            y siempre trato de centrarme en la solución y el planteamiento lógico del problema. 
         </p>
         <h2>
-        ⭐️Cuento con más de 1 año de experiencia real, además de haber contrubuido en varios proyectos grupales y proyectos personales.
+        ⭐️Cuento con más de 1 año de experiencia real, además de haber contrubuído en varios proyectos grupales y proyectos personales.
         </h2>
         <h2>
         ⭐️Actualmente, también soy estudiante de la UTN Universidad Tecnológica Nacional, sede Pacheco.
