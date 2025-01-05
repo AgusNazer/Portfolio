@@ -43,8 +43,8 @@ function App() {
       
         <Route path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
-        <Route path="/techs" element={ <TechSkills /> } />
         <Route path="/proyects" element={ <Proyects /> } />
+        <Route path="/techs" element={ <TechSkills /> } />
         <Route path="/contact" element={ <Footer /> } />
       </Routes>
        {/* <Footer/> */}

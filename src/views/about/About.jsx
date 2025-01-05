@@ -13,12 +13,21 @@ const About = () => {
         />
       </div>
       <div className="md:flex-1">
-        <h2 className="text-3xl mb-5">Acerca de mí</h2>
+        <h2 className="text-3xl mb-5">Agustin Nazer</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ¡Hola! Soy Agustín Nazer, un desarrollador Fullstack, apasionado por el mundo blockchain y crypto.
-Creo fuertemente que la Web 3 y la tecnología blockchain están transformando nuestro mundo digital...
+          ⭐️¡Hola! Soy Agustín Nazer, un desarrollador Backend con conocimientos tambien en Frontend, apasionado por el mundo del desarrollo.
+           Poder contribuir a soluciones reales a traves de la tecnologia es un desafio grande, en el que me gusta estar involucrado. Estoy cosntantemente
+           aprendiendo nuevas herramientas y explorando nuevos caminos. En definitiva, el codigo es el medio por el cual los desarrolladores buscamos
+           resolver problemas. El codigo siempre estará ahi, las tecnologias pueden ser otras en un fúturo. Por eso, no me ato a ningun framework o herramientas,
+           y siempre trato centrarme en la solucion y no (primeramente) en el medio. 
         </p>
+        <h2>
+        ⭐️Cuento con mas de 1 año de experiencia real, ademas de haber contrubuido en varios proyectos grupales y proyectos personales.
+        </h2>
+        <h2>
+        ⭐️Actualmente, tambien soy estudiante de la UTN Universidad Tecnologia Nacional, sede Pacheco.
+        </h2>
         
         <p className="mt-2">
           {/* Being a creative person I have focused mainly on the frontend area.
@@ -28,8 +37,8 @@ Creo fuertemente que la Web 3 y la tecnología blockchain están transformando n
           {/* Si bien soy una persona creativa, que siempre hace foco en la experiencia de usuario,
           me interesan las aplicaciones full stack porque me gusta entender el funcionamiento tanto 
           frontend como de backend. */}
-           La Web 3 representa un muno descentralizado, impulsado por la confianza y la privacidad. Blockchain es la base de esta revolución, ofreciendo transparencia y seguridad.
- Creo que la blockchain seguirá siendo clave en la evolución de finanzas, contratos inteligentes, identidad digital y más. Y esto es mi gran motivación, poder contribuir a este mundo descentralizado sin limites. 
+           {/* La Web 3 representa un muno descentralizado, impulsado por la confianza y la privacidad. Blockchain es la base de esta revolución, ofreciendo transparencia y seguridad.
+ Creo que la blockchain seguirá siendo clave en la evolución de finanzas, contratos inteligentes, identidad digital y más. Y esto es mi gran motivación, poder contribuir a este mundo descentralizado sin limites.  */}
         </p>
         <p className="mt-2">
           {/* I discovered my passion for programming 2 years ago, and since then
