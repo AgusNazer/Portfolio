@@ -45,7 +45,7 @@ const TechSkills = () => {
           style={{maxWidth: '90%'}}
         />
       </a>
-      <a href="https://www.w3schools.com/css/" rel="nofollow">
+      {/* <a href="https://www.w3schools.com/css/" rel="nofollow">
         
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWVIaPJjrNVi3C8DiBxegdbAvAzcK3jy37Vw&s"
@@ -55,7 +55,7 @@ const TechSkills = () => {
          
           style={{maxidth: "90%"}}
         />
-      </a>
+      </a> */}
       <a href="https://reactjs.org/" rel="nofollow">
         
         <img
@@ -101,7 +101,7 @@ const TechSkills = () => {
       <a href="https://postman.com" rel="nofollow">
     
         <img
-          src="https://yt3.googleusercontent.com/XRzDTgEa9GybH_Uk21E9ri6_iYh-9gbyZzhiEBCnLjISgjTorjMiu7IwpChUMf2lLpEdX6ufDA=s900-c-k-c0x00ffffff-no-rj"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEl-1NwtTGDJ5RnK_ntcpb6xft4yceU31uuedAVfvG4M2pQF5BQsoI79VZsNR91irX3U&usqp=CAU"
           alt="postman"
           width="90"
           height="90"
