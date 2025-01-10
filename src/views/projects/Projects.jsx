@@ -64,12 +64,11 @@ const Projects = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Speak easy</h1>
           <h3 className="mb-2">Aplicación Flutter </h3>
           <p className="">
-            {/* Was developed for No Country Community, with a group of developers,
-            designer, QA tester, and team leader. */}
+
             Fue desarrollada para No Country, comunidad de simulacion de entornos de trabajo.
             La desarrollamos junto a un equipo de trabajo donde eramos 3 desarolladores, una diseñadora, una
             QA tester, y contabamos con la guía de un Team leader bajo la metodologia SCRUM. 
@@ -87,7 +86,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">React app e-commerce</h1>
