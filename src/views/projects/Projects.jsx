@@ -22,15 +22,21 @@ const Projects = () => {
           <p className="">
 
             Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
-            El usuario puede calificar peliculas, ordernarlas segun nombre y otras caracteristicas. Cuenta con una base de datos MySql y lo 
+            El usuario puede calificar peliculas, ordernarlas segun nombre y otras caracteristicas. En este proyecto me enfoqe principalmente
+            no solo en el backend, sino tambien en el deploy, hosting y servidores. Cuenta con una base de datos MySql y lo 
             interesante es que el backend y la Db estan en un servidor VPS corriendo. El cual tiene certificado SSL y varias caracteristicas
             semejantes a un proyecto en produccion. 
           </p>
           <a
-            href="http://147.93.8.200:8080/api/movies"
+            href="https://phenomenal-speculoos-8ceaca.netlify.app/"
             target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Link al json de movies</a>
+          >Ir al deploy</a>
+          <a href="https://www.agusdev.online/api/movies" 
+          target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Ir al json
+          </a>
           <a
             href="https://github.com/AgusNazer/movieproject.git"
             target="_blank"
