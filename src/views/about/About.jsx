@@ -1,5 +1,5 @@
-import avatarImg from '../../assets/images/avatar3.jpeg'
-import PorfolioPic from '../../assets/images/PorfolioPic.jpg'
+// import avatarImg from '../../assets/images/avatar3.jpeg'
+// import PorfolioPic from '../../assets/images/PorfolioPic.jpg'
 import PorfolioSinFondo from '../../assets/images/PorfolioSinFondo.png'
 
 
