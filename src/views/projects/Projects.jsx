@@ -1,6 +1,6 @@
 import Pdm from "../../assets/images/PdM2.png";
 import piFoods from "../../assets/images/PI-Foods.png";
-import speakEasy from "../../assets/images/SpeakEasy.png";
+import javaMovies from "../../assets/images/javaMovies.png";
 import recipeImg from "../../assets/images/RecipeApp.png";
 import coffeeImg from "../../assets/images/CoffeeApp.png";
 import naikiImg from "../../assets/images/NaikiReact.png";
@@ -13,13 +13,44 @@ const Projects = () => {
     <div id="proyects-section" className="text-center mt-20 mb-20">
       <h1 className="text-3xl mb-10">Projectos</h1>
 
+
+
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          <h1 className="text-2xl">Movie rater</h1>
+          <h3 className="mb-2">Java-Spring </h3>
+          <p className="">
+
+            Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
+            El usuario puede calificar peliculas, ordernarlas segun nombre y otras caracteristicas. Cuenta con una base de datos MySql y lo 
+            interesante es que el backend y la Db estan en un servidor VPS corriendo. El cual tiene certificado SSL y varias caracteristicas
+            semejantes a un proyecto en produccion. 
+          </p>
+          <a
+            href="http://147.93.8.200:8080/api/movies"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Link al json de movies</a>
+          <a
+            href="https://github.com/AgusNazer/movieproject.git"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >
+            Ir al repositorio
+          </a>
+          <img
+            src={javaMovies}
+            alt="Thumbnail"
+            className="w-full h-auto mt-4 rounded-lg"
+          />
+        </div> 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Puebla del Mar</h1>
           <h3 className="">
             {/* Real project. Ecommerce developed on the Henry Bootcamp. Its a
             women's sportswear store. MVP features: Website development, user
             accounts, admin accounts, search engine, and reviews. */}
+            <p>NodeJs-React</p> <br /> 
             Proyecto real.  Ecommerce desarrollado durante la etapa del proyecto final del bootcamp
             Soy Henry. Es una tienda de ropa deportiva para mujeres. MVP features: cuenta de usuario,
             cuenta de administrador, motor de búsqueda, reseñas, y mas funcionales que puedes descubrir
@@ -43,7 +74,7 @@ const Projects = () => {
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Api-Foods</h1>
-          <h3 className="mb-2">Single Page Application</h3>
+          <h3 className="mb-2">NodeJs-React-PostgreSql</h3>
           <p className="">
             {/* Was developed for my Individual Project on the Henry Fullstack
             Developer bootcamp. The data is extracted from the Spoonacular API. */}
@@ -89,8 +120,8 @@ const Projects = () => {
         </div> */}
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">React app e-commerce</h1>
-          <h3 className="mb-2">React + Firebase app</h3>
+          <h1 className="text-2xl">ReactJs e-commerce</h1>
+          <h3 className="mb-2">ReactJs - Firebase app</h3>
           <p className="">
             {/* Was developed for me on the Coderhouse course of React. */}
             Fue desarrollada durante la carrera de Desarrollador Frontend en Coderhouse durante
@@ -114,7 +145,7 @@ const Projects = () => {
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ToDo App</h1>
-          <h3 className="mb-2">React app + mongoDb</h3>
+          <h3 className="mb-2">React Js - mongoDb</h3>
           <p className="">
             {/* Was developed for me on the Coderhouse course of React. */}
             Una simple app de tareas, donde podemos agregar, editar y eliminar tareas de nuestra lista.
@@ -137,7 +168,7 @@ const Projects = () => {
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Henry challenge</h1>
-          <h3 className="mb-2">React vite + mongoDb</h3>
+          <h3 className="mb-2">ReactJs vite - mongoDb</h3>
           <p className="">
             {/* Was developed for me on the Coderhouse course of React. */}
             Un challengue full stack realizado en 48 hs. 
@@ -161,7 +192,7 @@ const Projects = () => {
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Your calorie App</h1>
-          <h3 className="mb-2">Aplicación en javascript sobre calorias y recetas</h3>
+          <h3 className="mb-2">Javascript - Css</h3>
           <p className="">
             {/* Was developed for me on the Coderhouse course of Javascript vanilla,
             it's a simple app where the data is extracted from the Spoonacular
@@ -184,7 +215,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Cofee-app</h1>
-          <h3 className="mb-2">Mi primera app</h3>
+          <h3 className="mb-2">Mi primera app - Html - Css</h3>
           <p className="">
             Esta fue mi primer experiencia desarrollando una pagina web.
             Se hizo durante el primer curso de la carrera de Desarrollador Frontend en Coderhouse.
