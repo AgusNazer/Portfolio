@@ -34,7 +34,7 @@ const About = () => {
         </h2>
         
         <p className="mt-2">
-          {/* Being a creative person I have focused mainly on the frontend area.
+          {/* Being a creative person I have focused mainly on the frontend area..
           From this position, I can contribute to design, user experience, and
           functionality to provide solutions. I like to say I'm a frontend
           developer with knowledge in the backend. */}
