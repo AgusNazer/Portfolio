@@ -1,6 +1,6 @@
-// import avatarImg from '../../assets/images/avatar3.jpeg'
+import avatarImg from '../../assets/images/avatar3.jpeg'
 // import PorfolioPic from '../../assets/images/PorfolioPic.jpg'
-import myPic from "../../assets/images/PorfolioSinFondo.png"
+import pic from "../../assets/images/PorfolioSinFondo.png"
 
 
 const About = () => {
@@ -9,9 +9,9 @@ const About = () => {
     <div className="flex flex-col-reverse md:flex-row w-full max-w-screen-lg mx-auto p-6 md:p-10 rounded-lg shadow-lg">
       <div className="w-48 h-48 md:mb-0 md:mr-6 ml-auto mr-auto">
         <img
-          // src={avatarImg}
+          src={avatarImg}
           // src={PorfolioPic}
-          src={myPic}
+          // src={pic}
           alt="Avatar"
           className=" w-full h-full object-cover rounded-full border-1 border-blue-900 border-opacity-75 shadow-sm"
         />
