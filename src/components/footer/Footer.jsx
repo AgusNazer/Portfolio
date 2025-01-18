@@ -9,7 +9,7 @@ const Footer = () => {
         <h2 className="text-3xl">CONTÁCTAME</h2>
         <div id="contact" className="flex flex-wrap justify-center mt-6">
           <a
-            href="https://www.linkedin.com/in/agust%C3%ADnnazer/"
+            href="https://www.linkedin.com/in/agustinnazer/"
             className="mx-4 my-2 flex flex-col items-center"
             target="_blank"
           >
