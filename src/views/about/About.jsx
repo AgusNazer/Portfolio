@@ -1,6 +1,6 @@
 // import avatarImg from '../../assets/images/avatar3.jpeg'
 // import PorfolioPic from '../../assets/images/PorfolioPic.jpg'
-import myPic from '../../assets/images/PorfolioSinFondo.png'
+import myPic from "../../assets/images/PorfolioSinFondo.png"
 
 
 const About = () => {
