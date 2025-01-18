@@ -1,6 +1,6 @@
 // import avatarImg from '../../assets/images/avatar3.jpeg'
 // import PorfolioPic from '../../assets/images/PorfolioPic.jpg'
-import PorfolioSinFondo from '../../assets/images/PorfolioSinFondo.png'
+import myPic from '../../assets/images/PorfolioSinFondo.png'
 
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
         <img
           // src={avatarImg}
           // src={PorfolioPic}
-          src={PorfolioSinFondo}
+          src={myPic}
           alt="Avatar"
           className=" w-full h-full object-cover rounded-full border-1 border-blue-900 border-opacity-75 shadow-sm"
         />
