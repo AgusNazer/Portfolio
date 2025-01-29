@@ -6,6 +6,7 @@ import coffeeImg from "../../assets/images/CoffeeApp.png";
 import naikiImg from "../../assets/images/NaikiReact.png";
 import toDoApp from "../../assets/images/toDoApp.png";
 import formApp from "../../assets/images/formApp.png";
+import xwallet from "../../assets/images/x-wallet.png"
 
 
 const Projects = () => {
@@ -50,6 +51,40 @@ const Projects = () => {
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div> 
+        
+        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          <h1 className="text-2xl">X-Wallet</h1>
+          <h3 className="mb-2">NodeJs-React </h3>
+          <p className="">
+
+            SPA que muestra informacion de las 100 criptomonedas con mas capitalización de mercado actual.
+            Cuenta con registro y autenticación de usuario para acceder. Se há utilizado firebase Auth. 
+            Actulamente es una aplicación sólo informativa, pero la idea es desarrollar otras funcionalidades.  
+          </p>
+          <a
+            href="https://x-wallet-crypto.netlify.app/"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Ir al deploy</a>
+          {/* <a href="https://x-wallet-crypto.netlify.app/" 
+          target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Ir al json
+          </a> */}
+          <a
+            href="https://github.com/AgusNazer/x-wallet"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >
+            Ir al repositorio
+          </a>
+          <img
+            src={xwallet}
+            alt="Thumbnail"
+            className="w-full h-auto mt-4 rounded-lg"
+          />
+        </div> 
+
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Puebla del Mar</h1>
           <h3 className="">
@@ -125,16 +160,18 @@ const Projects = () => {
           />
         </div> */}
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+         {/* //////////////// */}
+        
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ReactJs e-commerce</h1>
           <h3 className="mb-2">ReactJs - Firebase app</h3>
           <p className="">
-            {/* Was developed for me on the Coderhouse course of React. */}
+
             Fue desarrollada durante la carrera de Desarrollador Frontend en Coderhouse durante
             el curso de React.
           </p>
           <a
-            //   href="https://github.com/AgusNazer/preEntregaNazer.git"
+
             
             href="https://agusnazer.github.io/entregaFinalNazer/"
             target="_blank"
@@ -147,7 +184,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ToDo App</h1>
@@ -219,7 +256,7 @@ const Projects = () => {
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div>
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Cofee-app</h1>
           <h3 className="mb-2">Mi primera app - Html - Css</h3>
           <p className="">
@@ -239,7 +276,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
