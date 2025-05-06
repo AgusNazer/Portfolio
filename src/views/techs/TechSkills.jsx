@@ -98,7 +98,7 @@ const TechSkills = () => {
           style= {{maxWidth: '90%'}}
         />
       </a>
-      <a href="https://postman.com" rel="nofollow">
+      {/* <a href="https://postman.com" rel="nofollow">
     
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEl-1NwtTGDJ5RnK_ntcpb6xft4yceU31uuedAVfvG4M2pQF5BQsoI79VZsNR91irX3U&usqp=CAU"
@@ -108,7 +108,7 @@ const TechSkills = () => {
           
           style= {{maxWidth: '90%'}}
         />
-      </a>
+      </a> */}
       <a href="https://code.visualstudio.com" rel="nofollow">
        
         <img

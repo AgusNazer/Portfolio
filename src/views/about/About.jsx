@@ -19,17 +19,14 @@ const About = () => {
         <h2 className="text-3xl mb-5">Agustin Nazer</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ⭐️¡Hola! Soy Agustín Nazer, un desarrollador Backend con conocimientos también en Frontend, apasionado por el mundo del desarrollo.
-           Poder contribuir a soluciones reales a través de la tecnología es un desafío grande, en el que me gusta estar involucrado. Estoy cosntantemente
-           aprendiendo nuevas herramientas y explorando nuevos caminos. En definitiva, el código es el medio por el cual los desarrolladores buscamos
-           resolver problemas. El código siempre estará ahi, las tecnologías pueden ser otras en un fúturo. Por eso, no me ato a ningun framework o herramienta,
-           y siempre trato de centrarme en la solución y el planteamiento lógico del problema. 
+          ⭐️¡Hola! Soy un desarrollador FullStack con experiencia en aplicaciones web. Tengo experiencia trabajando con tecnologías
+como Node.js, Express, Java y Spring del lado del backend, además de lenguajes como SQL y herramientas como PostgreSQL, MySQL y MongoDB. También manejo tecnologías como React.js del lado del cliente, y tengo experiencia profesional de mas de 1 año.
         </p>
         <h2>
-        ⭐️Cuento con más de 1 año de experiencia real, además de haber contrubuído en varios proyectos grupales y proyectos personales.
-        </h2>
-        <h2>
-        ⭐️Actualmente, también soy estudiante de la UTN Universidad Tecnológica Nacional, sede Pacheco.
+        ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
+resolución de problemas de manera analítica, lo que me permite pensar soluciones y adaptarme a ellas. Me interesa
+entender la lógica de negocio que hay detrás, y por eso el backend es mi mayor área de interés. En estos momentos,
+mi stack tecnológico principal es Java + Spring, y Node js + Express en el backend.
         </h2>
         
         <p className="mt-2">

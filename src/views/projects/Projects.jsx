@@ -186,15 +186,15 @@ const Projects = () => {
           />
         </div> */}
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ToDo App</h1>
           <h3 className="mb-2">React Js - mongoDb</h3>
           <p className="">
-            {/* Was developed for me on the Coderhouse course of React. */}
+          
             Una simple app de tareas, donde podemos agregar, editar y eliminar tareas de nuestra lista.
           </p>
           <a
-            //   href="https://github.com/AgusNazer/preEntregaNazer.git"
+               href="https://github.com/AgusNazer/preEntregaNazer.git"
             
             href="https://todo-app-agus.netlify.app/"
             target="_blank"
@@ -207,7 +207,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Henry challenge</h1>
@@ -240,7 +240,7 @@ const Projects = () => {
             {/* Was developed for me on the Coderhouse course of Javascript vanilla,
             it's a simple app where the data is extracted from the Spoonacular
             API. */}
-            Fue desarrollada durante el curso de Javascript de la carrera de Desarrollador Frontend en Coderhouse.
+            Fue mi primer sitio web utilzando Js. 
             Utilicé html, css y javascript puro.
           </p>
           <a
