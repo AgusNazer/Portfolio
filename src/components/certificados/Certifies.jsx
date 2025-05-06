@@ -12,7 +12,7 @@ const Certifies = () => {
       <div className="flex flex-wrap justify-center gap-2 ">
         <a
           className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          href="https://drive.google.com/file/d/10NLIvugzlfbkdQ_8VuOLG7r1Y3VLt4Pw/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1SsCqvmMUpeIyIG9Bvlm46aVXOOpGm6tD/view?usp=sharing"
           target="_blank "
         >
           Cv Agustin Nazer

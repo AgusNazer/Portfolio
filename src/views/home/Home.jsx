@@ -63,9 +63,9 @@ const Home = () => {
             
           </button>
           <About style={{ margin: '10px' }} />
+          <Projects />
           <Certifies />
           <TechSkills />
-          <Projects />
           <Footer />
         </div>
       </div>
