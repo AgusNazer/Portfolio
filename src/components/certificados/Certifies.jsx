@@ -111,7 +111,7 @@ const Certifies = () => {
             <h3>Frontend react</h3>
             <h4 className="mb-4 text-lg">Coder House </h4>
             <a
-              href="https://www.coderhouse.com/certificados/63d9aef3645fb0000ea3ae6c"
+              href="https://pub.coderhouse.com/legacy-certificates/63d9aef3645fb0000ea3ae6c?lang"
               className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
             >
               Ir al certificado
