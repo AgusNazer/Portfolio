@@ -55,6 +55,7 @@ const Projects = () => {
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">X-Wallet</h1>
           <h3 className="mb-2">NodeJs-React </h3>
+          <h4 className="text-xl text-red-500"> Falta optimizar cargado de inicio</h4>
           <p className="">
 
             SPA que muestra informacion de las 100 criptomonedas con mas capitalización de mercado actual.
