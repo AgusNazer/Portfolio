@@ -22,6 +22,7 @@ const Projects = () => {
 <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Tienda Electro</h1>
           <h3 className="mb-2">Java-Spring-ReactJs </h3>
+          <h4 className="text-xl text-red-500"> La carga inicial de productos puede tardar debido q que es un servidor gratuito</h4>
           <p className="">
 
             Tienda de tipo Ecommerce hecha con Java + spring. Arquitectura de microservicios, con servidor Eureka Server. Cuenta con los servicios de productos, cart y ventas. 
