@@ -28,7 +28,7 @@
   }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;1,100;1,300&family=Roboto:ital,wght@0,300;1,100;1,300&family=Syne+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;1,100;1,300&family=Roboto:ital,wght@0,300;1,100;1,300&family=Syne+Mono&display=swap'); */
 
 *{
   font-family: 'Lato', sans-serif, 'Roboto', sans-serif;
@@ -104,3 +104,6 @@ body::before {
   pointer-events: none;
   animation: backgroundAnimation 30s linear infinite alternate;
 } */
+
+
+/*     NUEVO DISENIO -------------------------------------------------------------------------------------------------------------------------------- */

@@ -9,7 +9,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import { FaMoon } from 'react-icons/fa6'
 import sunImg from "../../assets/images/sun.jpeg";
 
-
+// chckear el home card api
 const Home = () => {
 
   const [darkMode, setDarkMode] = useState(false);
