@@ -310,13 +310,11 @@ const Projects = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Your calorie App</h1>
           <h3 className="mb-2">Javascript - Css</h3>
           <p className="">
-            {/* Was developed for me on the Coderhouse course of Javascript vanilla,
-            it's a simple app where the data is extracted from the Spoonacular
-            API. */}
+
             Fue mi primer sitio web utilzando Js. 
             Utilicé html, css y javascript puro.
           </p>
@@ -332,7 +330,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
         {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Cofee-app</h1>
           <h3 className="mb-2">Mi primera app - Html - Css</h3>

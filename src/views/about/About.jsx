@@ -20,7 +20,7 @@ const About = () => {
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
           ⭐️¡Hola! Soy un desarrollador FullStack con experiencia en aplicaciones web. Tengo experiencia trabajando con tecnologías
-como Node.js, Express, Java y Spring del lado del backend, además de lenguajes como SQL y herramientas como PostgreSQL, MySQL y MongoDB. También manejo tecnologías como React.js del lado del cliente, y tengo experiencia profesional de mas de 1 año.
+como Node.js y Express, aunque actualmente estoy bsucando oportunidades con Java/Spring o ASP .NET. Además tengo conocimientos de lenguajes como SQL y herramientas como PostgreSQL, MySQL y MongoDB. También manejo tecnologías como React.js del lado del cliente, y tengo experiencia profesional de mas de 1 año en desarrollo Web..
         </p>
         <h2>
         ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
