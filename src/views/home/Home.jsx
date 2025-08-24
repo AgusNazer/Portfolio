@@ -9,6 +9,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import { FaMoon } from 'react-icons/fa6'
 import sunImg from "../../assets/images/sun.jpeg";
 
+//probando desde nueva ryzen
+
 // chckear el home card api
 const Home = () => {
 
