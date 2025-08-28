@@ -20,6 +20,7 @@ const Home = () => {
    
  };
 
+ // ok probando desde ryzne7
 
   // useEffect(()=> {
   //   Swal.fire({
