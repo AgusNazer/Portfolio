@@ -24,9 +24,9 @@ como Node.js y Express, aunque actualmente estoy bsucando oportunidades con Java
         </p>
         <h2>
         ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
-resolución de problemas de manera analítica, lo que me permite pensar soluciones y adaptarme a ellas. Me interesa
+resolución de problemas de manera analítica, lo que hoy me permite pensar soluciones y adaptarme a ellas. Me interesa
 entender la lógica de negocio que hay detrás, y por eso el backend es mi mayor área de interés. En estos momentos,
-mi stack tecnológico principal es Java + Spring, y Node js + Express en el backend.
+mi stack tecnológico principal es Java + Spring, y ASP .NET CORE.
         </h2>
         
         <p className="mt-2">
