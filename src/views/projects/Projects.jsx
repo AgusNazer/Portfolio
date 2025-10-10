@@ -10,6 +10,7 @@ import xwallet from "../../assets/images/x-wallet.png"
 import tiendaElectro from "../../assets/images/Tienda-Electro.png"
 import gaia from "../../assets/images/gaia.png"
 import finalesya from "../../assets/images/homep.png"
+import postulate from "../../assets/images/postulateApp.jpeg"
 
 
 const Projects = () => {
@@ -35,6 +36,27 @@ const Projects = () => {
           >Ir al deploy</a>
           <img
             src={finalesya}
+            alt="Thumbnail"
+            className="w-full h-auto mt-4 rounded-lg"
+          />
+        </div> 
+
+        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          <h1 className="text-2xl">postulateApp</h1>
+          <h2>🛠️🪛🧱En desarrollo!</h2>
+          <h3 className="mb-2">Node Js </h3>
+
+          <p className="">
+
+            Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos.
+          </p>
+          <a
+            href="https://postulationapp.onrender.com/"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Ir al deploy</a>
+          <img
+            src={postulate}
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
