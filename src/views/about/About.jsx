@@ -19,14 +19,16 @@ const About = () => {
         <h2 className="text-3xl mb-5">Agustin Nazer</h2>
         <p className="mt-2">
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ⭐️¡Hola! Soy un desarrollador FullStack con experiencia en aplicaciones web. Tengo experiencia trabajando con tecnologías
-como Node.js y Express, aunque actualmente estoy bsucando oportunidades con Java/Spring o ASP .NET. Además tengo conocimientos de lenguajes como SQL y herramientas como PostgreSQL, MySQL y MongoDB. También manejo tecnologías como React.js del lado del cliente, y tengo experiencia profesional de mas de 1 año en desarrollo Web..
+          ⭐️¡Hola! Soy un desarrollador de software con experiencia en aplicaciones web y web3. Tengo experiencia trabajando con tecnologías
+como Node.js + Express y Python + Flask. Mi formacion univsersitaria tambien me ha dado solidos conocimientos en C#, y .NET , .NET core, ASP.NET. Tengo experiencia trabajando 
+con bases de datos relacionales como MySQL y SQL Server, y no relacionales como MongoDB. Ultimamente, he estado explorando el desarrollo con IA, ya que considero este campo una gran oportunidad y 
+un gran campo que aun falta explorar.
         </p>
         <h2>
         ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
 resolución de problemas de manera analítica, lo que hoy me permite pensar soluciones y adaptarme a ellas. Me interesa
-entender la lógica de negocio que hay detrás, y por eso el backend es mi mayor área de interés. En estos momentos,
-mi stack tecnológico principal es Java + Spring, y ASP .NET CORE.
+entender la lógica de negocio que hay detrás, y por eso el backend es mi mayor área de interés. Me encantaria poder compartir mis conocimientos, y crecer proefsionalmente
+en una empresa que me permita seguir aprendiendo y aportando valor.
         </h2>
         
         <p className="mt-2">
