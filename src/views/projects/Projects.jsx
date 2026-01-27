@@ -21,6 +21,28 @@ const Projects = () => {
 
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+
+
+        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          <h1 className="text-2xl">Gaia Ecotrack</h1>
+          <h3 className="mb-2">Python-NodeJs-React-Rust-Gear protocol </h3>
+
+          <p className="">
+
+            Projecto real de alto impacto ambiental. Plataforma descentralizada de tokenización de energia, desarrollada con tecnologia Blockchain, en la red de Vara Network.
+          </p>
+          <a
+            href="https://www.gaiaecotrack.com/"
+            target="_blank"
+            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >Ir al deploy</a>
+          <img
+            src={gaia}
+            alt="Thumbnail"
+            className="w-full h-auto mt-4 rounded-lg"
+          />
+        </div> 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">IA Agent purchase!</h1>
           <h3 className="mb-2">Python + Langchain + LLM + React </h3>
@@ -83,25 +105,7 @@ const Projects = () => {
           />
         </div> 
 
-<div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Gaia Ecotrack</h1>
-          <h3 className="mb-2">Python-NodeJs-React-Rust-Gear protocol </h3>
 
-          <p className="">
-
-            Projecto real de alto impacto ambiental. Plataforma descentralizada de tokenización de energia, desarrollada con tecnologia Blockchain, en la red de Vara Network.
-          </p>
-          <a
-            href="https://www.gaiaecotrack.com/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
-          <img
-            src={gaia}
-            alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
-          />
-        </div> 
         <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Tienda Electro</h1>
           <h3 className="mb-2">Java-Spring-ReactJs </h3>
