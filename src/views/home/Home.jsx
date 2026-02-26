@@ -35,7 +35,7 @@ const Home = () => {
                     Stack
                   </p>
                   <p className="mt-2 text-sm text-zinc-300">
-                    Node.js, Python, Java, .NET, React, SQL, MongoDB
+                    Python, .NET, React, SQL, MongoDB, Docker, Git
                   </p>
                 </div>
                 <div className="card-soft">
