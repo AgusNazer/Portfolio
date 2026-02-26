@@ -1,35 +1,26 @@
 const TechSkills = () => {
   const technologies = [
-    {
-      name: "JavaScript",
-      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
-    },
-    {
-      name: "HTML5",
-      url: "https://www.w3.org/html/",
-      icon: "https://cdn-icons-png.flaticon.com/256/121/121537.png",
-    },
-    {
-      name: "React",
-      url: "https://reactjs.org/",
-      icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
-    },
-    {
-      name: "Node.js",
-      url: "https://nodejs.org",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRv3PGEyeJbr65Z2XC-eBGIJvQdtpg0L7XkA&s",
-    },
+    // {
+    //   name: "JavaScript",
+    //   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
+    // },
+
+    // {
+    //   name: "Node.js",
+    //   url: "https://nodejs.org",
+    //   icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRv3PGEyeJbr65Z2XC-eBGIJvQdtpg0L7XkA&s",
+    // },
     {
       name: "Python",
       url: "https://www.python.org/",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
     },
-    {
-      name: "Java",
-      url: "https://www.oracle.com/java/",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Java_coffee_cup_logo.svg/1200px-Java_coffee_cup_logo.svg.png",
-    },
+    // {
+    //   name: "Java",
+    //   url: "https://www.oracle.com/java/",
+    //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Java_coffee_cup_logo.svg/1200px-Java_coffee_cup_logo.svg.png",
+    // },
     {
       name: ".NET",
       url: "https://dotnet.microsoft.com/",
@@ -41,15 +32,15 @@ const TechSkills = () => {
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
     },
     {
-      name: "MongoDB",
+      name: "mongo",
       url: "https://www.mongodb.com/",
-      icon: "https://webimages.mongodb.com/_com_assets/cms/kuyjf3nd142image3-image3.png",
+      icon: "https://w7.pngwing.com/pngs/429/921/png-transparent-mongodb-plain-wordmark-logo-icon.png",
     },
-    {
-      name: "Express.js",
-      url: "https://expressjs.com",
-      icon: "https://www.dongee.com/tutoriales/content/images/2023/11/image-59.png",
-    },
+    // {
+    //   name: "Express.js",
+    //   url: "https://expressjs.com",
+    //   icon: "https://www.dongee.com/tutoriales/content/images/2023/11/image-59.png",
+    // },
     {
       name: "Firebase",
       url: "https://firebase.google.com/",
@@ -59,6 +50,11 @@ const TechSkills = () => {
       name: "Git",
       url: "https://git-scm.com/",
       icon: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    },
+        {
+      name: "React",
+      url: "https://reactjs.org/",
+      icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
     },
   ];
 
@@ -97,14 +93,13 @@ const TechSkills = () => {
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           <div className="card">
             <p className="section-kicker">Backend</p>
-            <h3 className="mt-2 text-lg font-semibold">Lenguajes & Frameworks</h3>
+            <h3 className="mt-2 text-lg font-semibold">Lenguajes & Herramientas</h3>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="chip">Node.js</span>
               <span className="chip">Python</span>
-              <span className="chip">Java + Spring</span>
               <span className="chip">.NET</span>
-              <span className="chip">Express</span>
               <span className="chip">Flask</span>
+              <span className="chip">Docker</span>
+              <span className="chip">Git</span>
             </div>
           </div>
 

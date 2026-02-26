@@ -19,9 +19,7 @@ const Home = () => {
               </h1>
               <p className="text-lg text-zinc-300">
                 Desarrollo soluciones web con foco en backend y arquitecturas
-                limpias. Me muevo entre Node.js, Python, Java y .NET, y
-                construyo interfaces modernas con React cuando el producto lo
-                necesita.
+                limpias. Diseño APIs RESTful robustas y construyo soluciones escalabales. 
               </p>
               <div className="flex flex-wrap gap-3">
                 <a href="/#proyects-section" className="btn-primary">
