@@ -15,134 +15,163 @@ import agentecompra from "../../assets/images/agentecompra.jpeg"
 
 const Projects = () => {
   return (
-    <div id="proyects-section" className="text-center mt-20 mb-20">
-      <h1 className="text-3xl mb-10">Projectos</h1>
+    <section id="proyects-section" className="section section-anchor">
+      <div className="container-max">
+        <div className="flex items-center justify-between gap-6">
+          <div>
+            <p className="section-kicker">Proyectos</p>
+            <h2 className="section-title">Projectos</h2>
+          </div>
+          <span className="badge">Produccion y MVPs</span>
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
 
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
-
-
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Gaia Ecotrack</h1>
-          <h3 className="mb-2">Python-NodeJs-React-Rust-Gear protocol </h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Gaia Ecotrack</h3>
+          <p className="text-sm text-warm">Python-NodeJs-React-Rust-Gear protocol</p>
 
           <p className="">
 
             Projecto real de alto impacto ambiental. Plataforma descentralizada de tokenización de energia, desarrollada con tecnologia Blockchain, en la red de Vara Network.
           </p>
-          <a
-            href="https://www.gaiaecotrack.com/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://www.gaiaecotrack.com/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={gaia}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">IA Agent purchase!</h1>
-          <h3 className="mb-2">Python + Langchain + LLM + React </h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">IA Agent purchase!</h3>
+          <p className="text-sm text-warm">Python + Langchain + LLM + React</p>
 
           <p className="">
 
             Projecto de agente inteligente que utiliza IA para realizar compras en linea de manera automatizada. El agente puede analizar productos ingresados por el usuario y tomar decisiones de 
             compra basadas en criterios predefinidos. Puede aceptar la compra, rechazarla, o bien solicitar revision. La app es un MVP, y se encuentra en desarrollo. Tendra mas funcionalidades en el futuro.  
           </p>
-          <a
-            href="https://agentecompra.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://agentecompra.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={agentecompra}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">FinalesYa!</h1>
-          <h3 className="mb-2">ASP .NET + PostgresSql + ReactJs </h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">FinalesYa!</h3>
+          <p className="text-sm text-warm">ASP .NET + PostgresSql + ReactJs</p>
 
           <p className="">
 
             Projecto de gestion de examenes, materias, calendarios, y demas,  para facilitar la organizacion de los estudiantes.
           </p>
-          <a
-            href="https://finalesyafrontend.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://finalesyafrontend.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={finalesya}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">postulateApp</h1>
-          <h2>🛠️🪛🧱En desarrollo!</h2>
-          <h3 className="mb-2">Node Js </h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">postulateApp</h3>
+          <span className="chip w-fit">En desarrollo</span>
+          <p className="text-sm text-warm">Node Js</p>
 
           <p className="">
 
             Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos.
           </p>
-          <a
-            href="https://postulationapp.onrender.com/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://postulationapp.onrender.com/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={postulate}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
 
-
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Tienda Electro</h1>
-          <h3 className="mb-2">Java-Spring-ReactJs </h3>
-          <h4 className="text-xl text-red-500"> La carga inicial de productos puede tardar debido q que es un servidor gratuito</h4>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Tienda Electro</h3>
+          <p className="text-sm text-warm">Java-Spring-ReactJs</p>
+          <p className="text-sm text-accentSoft">
+            La carga inicial de productos puede tardar debido a que es un
+            servidor gratuito.
+          </p>
           <p className="">
 
             Tienda de tipo Ecommerce hecha con Java + spring. Arquitectura de microservicios, con servidor Eureka Server. Cuenta con los servicios de productos, cart y ventas. 
             Actualmente en desarrollo. Se utiliza Java version 17, maven, hibernate, eureka discovery client, MySql driver, y otras herramientas
             del ecosistema de Spring Cloud. 
           </p>
-          <a
-            href="https://tienda-electro.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
-          <a href="https://electro-eureka-server.onrender.com/" 
-          target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al server
-          </a>
-          <a
-            href="https://github.com/AgusNazer/Product-microservicio-electro.git"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al repositorio(backend)
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://tienda-electro.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+            <a
+              href="https://electro-eureka-server.onrender.com/"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al server
+            </a>
+            <a
+              href="https://github.com/AgusNazer/Product-microservicio-electro.git"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al repositorio (backend)
+            </a>
+          </div>
           <img
             src={tiendaElectro}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
 
-      <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Movie rater</h1>
-          <h3 className="mb-2">Java-Spring </h3>
+      <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Movie rater</h3>
+          <p className="text-sm text-warm">Java-Spring</p>
           <p className="">
 
             Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
@@ -151,112 +180,121 @@ const Projects = () => {
             interesante es que el backend y la Db estan en un servidor VPS corriendo. El cual tiene certificado SSL y varias caracteristicas
             semejantes a un proyecto en produccion. 
           </p>
-          <a
-            href="https://phenomenal-speculoos-8ceaca.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
-          <a href="https://www.agusdev.online/api/movies" 
-          target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al json
-          </a>
-          <a
-            href="https://github.com/AgusNazer/movieproject.git"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al repositorio
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://phenomenal-speculoos-8ceaca.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+            <a
+              href="https://www.agusdev.online/api/movies"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al json
+            </a>
+            <a
+              href="https://github.com/AgusNazer/movieproject.git"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al repositorio
+            </a>
+          </div>
           <img
             src={javaMovies}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
         
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">X-Wallet</h1>
-          <h3 className="mb-2">NodeJs-React </h3>
-          <h4 className="text-xl text-red-500"> Falta optimizar cargado de inicio</h4>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">X-Wallet</h3>
+          <p className="text-sm text-warm">NodeJs-React</p>
+          <p className="text-sm text-accentSoft">Falta optimizar cargado de inicio.</p>
           <p className="">
 
             SPA que muestra informacion de las 100 criptomonedas con mas capitalización de mercado actual.
             Cuenta con registro y autenticación de usuario para acceder. Se há utilizado firebase Auth. 
             Actulamente es una aplicación sólo informativa, pero la idea es desarrollar otras funcionalidades.  
           </p>
-          <a
-            href="https://x-wallet-crypto.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al deploy</a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://x-wallet-crypto.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
           {/* <a href="https://x-wallet-crypto.netlify.app/" 
           target="_blank"
             className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
           >Ir al json
           </a> */}
-          <a
-            href="https://github.com/AgusNazer/x-wallet"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al repositorio
-          </a>
+            <a
+              href="https://github.com/AgusNazer/x-wallet"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al repositorio
+            </a>
+          </div>
           <img
             src={xwallet}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div> 
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Puebla del Mar</h1>
-          <h3 className="">
-            {/* Real project. Ecommerce developed on the Henry Bootcamp. Its a
-            women's sportswear store. MVP features: Website development, user
-            accounts, admin accounts, search engine, and reviews. */}
-            <p>NodeJs-React</p> <br /> 
-            Proyecto real.  Ecommerce desarrollado durante la etapa del proyecto final del bootcamp
-            Soy Henry. Es una tienda de ropa deportiva para mujeres. MVP features: cuenta de usuario,
-            cuenta de administrador, motor de búsqueda, reseñas, y mas funcionales que puedes descubrir
-            ingresando al sitio web!
-          </h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Puebla del Mar</h3>
+          <p className="text-sm text-warm">NodeJs-React</p>
+          <p className="text-sm text-zinc-300">
+            Proyecto real. Ecommerce desarrollado durante la etapa del proyecto
+            final del bootcamp Soy Henry. Es una tienda de ropa deportiva para
+            mujeres con cuenta de usuario, admin, motor de busqueda y resenas.
+          </p>
 
-          <a
-            // href="https://github.com/PuebladelMar/SoyPuebla.git"
-            href="https://soy-puebla-deploy.vercel.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al deploy
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://soy-puebla-deploy.vercel.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={Pdm}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div>
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Api-Foods</h1>
-          <h3 className="mb-2">NodeJs-React-PostgreSql</h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Api-Foods</h3>
+          <p className="text-sm text-warm">NodeJs-React-PostgreSql</p>
           <p className="">
             {/* Was developed for my Individual Project on the Henry Fullstack
             Developer bootcamp. The data is extracted from the Spoonacular API. */}
             Fue desarrollado durante el bootcamp de Soy Henry, y es mi proyecto individual 
             con la temática de recetas de comidas. La info fue extraida de la API Spoonacular.
           </p>
-          <a
-            href="https://github.com/AgusNazer/Pi_foods.git"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al repositorio
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://github.com/AgusNazer/Pi_foods.git"
+              target="_blank"
+              className="btn-ghost"
+            >
+              Ir al repositorio
+            </a>
+          </div>
           <img
             src={piFoods}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div>
 
@@ -333,27 +371,27 @@ const Projects = () => {
           />
         </div> */}
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
-          <h1 className="text-2xl">Henry challenge</h1>
-          <h3 className="mb-2">ReactJs vite - mongoDb</h3>
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Henry challenge</h3>
+          <p className="text-sm text-warm">ReactJs vite - mongoDb</p>
           <p className="">
             {/* Was developed for me on the Coderhouse course of React. */}
             Un challengue full stack realizado en 48 hs. 
             Desarrollé un CRUD completo en un formulario. Utilice MongoDb, mongoose, nodeJs, express, react y tailwind. 
           </p>
-          <a
-            //   href="https://github.com/AgusNazer/preEntregaNazer.git"
-            
-            href="https://agus-henry-form.netlify.app/"
-            target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >
-            Ir al deploy
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://agus-henry-form.netlify.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
           <img
             src={formApp}
             alt="Thumbnail"
-            className="w-full h-auto mt-4 rounded-lg"
+            className="h-auto w-full rounded-xl border border-chrome/70"
           />
         </div>
 
@@ -399,8 +437,9 @@ const Projects = () => {
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div> */}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

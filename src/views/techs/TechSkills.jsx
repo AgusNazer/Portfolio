@@ -1,171 +1,141 @@
-
-import dartImg from '../../assets/images/dart.png'
-import expressImg from '../../assets/images/express.png'
-import flutterImg from '../../assets/images/flutter.png'
-
-
 const TechSkills = () => {
-  return (
-    <div id="techs-section" className="flex-center flex-wrap m-15 shadow-md">
-    <h1 className="text-3xl text-center mb-8 ">Skills</h1>
-    <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
-      <a
-        href="https://www.scrum.org/resources/blog/que-es-scrum"
-        rel="nofollow"
-      >
-        <img
-          src="https://static.vecteezy.com/system/resources/previews/002/119/508/non_2x/scrum-process-line-icon-vector.jpg"
-          alt="scrum"
-          width="90"
-          height="90"
-          className="bg-transparent"
-          style={{ maxWidth: "90%" }}
-        />
-      </a>
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  const technologies = [
+    {
+      name: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
+    },
+    {
+      name: "HTML5",
+      url: "https://www.w3.org/html/",
+      icon: "https://cdn-icons-png.flaticon.com/256/121/121537.png",
+    },
+    {
+      name: "React",
+      url: "https://reactjs.org/",
+      icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
+    },
+    {
+      name: "Node.js",
+      url: "https://nodejs.org",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRv3PGEyeJbr65Z2XC-eBGIJvQdtpg0L7XkA&s",
+    },
+    {
+      name: "Python",
+      url: "https://www.python.org/",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+    },
+    {
+      name: "Java",
+      url: "https://www.oracle.com/java/",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Java_coffee_cup_logo.svg/1200px-Java_coffee_cup_logo.svg.png",
+    },
+    {
+      name: ".NET",
+      url: "https://dotnet.microsoft.com/",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png",
+    },
+    {
+      name: "PostgreSQL",
+      url: "https://www.postgresql.org",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+    },
+    {
+      name: "MongoDB",
+      url: "https://www.mongodb.com/",
+      icon: "https://webimages.mongodb.com/_com_assets/cms/kuyjf3nd142image3-image3.png",
+    },
+    {
+      name: "Express.js",
+      url: "https://expressjs.com",
+      icon: "https://www.dongee.com/tutoriales/content/images/2023/11/image-59.png",
+    },
+    {
+      name: "Firebase",
+      url: "https://firebase.google.com/",
+      icon: "https://miro.medium.com/v2/resize:fit:1400/0*dxB9HY1cYNKrSdbP.png",
+    },
+    {
+      name: "Git",
+      url: "https://git-scm.com/",
+      icon: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    },
+  ];
 
-      >
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
-     
-          width="90"
-          height="90"
-          //   data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
-          style={{ maxWwidth: "80%" }}
-        />
-      </a>
-      <a href="https://www.w3.org/html/" rel="nofollow">
-        <img
-          src="https://cdn-icons-png.flaticon.com/256/121/121537.png"
-         
-          width="90"
-          height="90"
-         
-          style={{maxWidth: '90%'}}
-        />
-      </a>
-      {/* <a href="https://www.w3schools.com/css/" rel="nofollow">
-        
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWVIaPJjrNVi3C8DiBxegdbAvAzcK3jy37Vw&s"
-        
-          width="90"
-          height="90"
-         
-          style={{maxidth: "90%"}}
-        />
-      </a> */}
-      <a href="https://reactjs.org/" rel="nofollow">
-        
-        <img
-          src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256"
-          alt="react"
-          width="90"
-          height="90"
-    
-          style= {{maxWidth: '90%'}}
-        />
-      </a>
-      <a href="https://postimg.cc/p5pH7rgL" target="_blank">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqLnMxa4Sr2X4PhU8nYHpyZQRnv3AoF7CZM1OFHvZoRm1eyHG7EV64nYPSYjk8F3t7Mc&usqp=CAU"
-          width="60"
-          height="50"
-          border="0"
-          alt="dart"
-        />
-      </a>
-      <a href="https://firebase.google.com/?hl=es-419/" rel="nofollow">
-      
-        <img
-          src="https://miro.medium.com/v2/resize:fit:1400/0*dxB9HY1cYNKrSdbP.png"
-          alt="git"
-          width="90"
-          height="90"
-          
-          style= {{maxWidth: '90%'}}
-        />
-      </a>
-      <a href="https://www.postgresql.org" rel="nofollow">
-      
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
-          alt="postgresql"
-          width="90"
-          height="90"
-         
-          style= {{maxWidth: '90%'}}
-        />
-      </a>
-      {/* <a href="https://postman.com" rel="nofollow">
-    
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEl-1NwtTGDJ5RnK_ntcpb6xft4yceU31uuedAVfvG4M2pQF5BQsoI79VZsNR91irX3U&usqp=CAU"
-          alt="postman"
-          width="90"
-          height="90"
-          
-          style= {{maxWidth: '90%'}}
-        />
-      </a> */}
-      <a href="https://code.visualstudio.com" rel="nofollow">
-       
-        <img
-          src="https://www.justinjbird.me/images/apps/vscode.webp"
-          alt="vscode"
-          width="90"
-          height="90"
-          
-          style= {{maxWidth: '90%'}}
-        />
-      </a>
-      <a href="https://nodejs.org" rel="nofollow">
-      
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRv3PGEyeJbr65Z2XC-eBGIJvQdtpg0L7XkA&s"
-          alt="nodejs"
-          width="90"
-          height="90"
-         
-          style= {{maxWidth: '100%'}}
-        />
-      </a>
-      <a href="https://es.wikipedia.org/wiki/C%2B%2B" rel="nofollow"/>
-       
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-          alt="sequelize"
-          width="120"
-          height="120"
-        
-          style= {{maxWidth: '100%'}}
-        />
-      <a href="https://expressjs.com" rel="nofollow">
-        
-        <img
-          src="https://www.dongee.com/tutoriales/content/images/2023/11/image-59.png"
-          alt="express"
-          width="100"
-          height="100"
-          
-          style= {{maxWidth: '100%'}}
-        />
-      </a>
-      <a href="https://www.python.org/" rel="nofollow">
-        
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
-          alt="express"
-          width="100"
-          height="100"
-          
-          style= {{maxWidth: '100%'}}
-        />
-      </a>
-    </div>
-    </div>
+  return (
+    <section id="techs-section" className="section section-anchor">
+      <div className="container-max">
+        <div className="flex items-center justify-between gap-6">
+          <div>
+            <p className="section-kicker">Tech Stack</p>
+            <h2 className="section-title">Skills & Tecnologías</h2>
+          </div>
+          <span className="badge">Fullstack</span>
+        </div>
+
+        <div className="mt-10 grid gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {technologies.map((tech) => (
+            <a
+              key={tech.name}
+              href={tech.url}
+              rel="nofollow"
+              target="_blank"
+              className="card-soft group flex flex-col items-center gap-3 transition hover:border-accent/70 hover:bg-chrome/80"
+            >
+              <img
+                src={tech.icon}
+                alt={tech.name}
+                className="h-10 w-10 object-contain opacity-80 transition group-hover:opacity-100"
+              />
+              <p className="text-center text-xs font-medium text-zinc-300 transition group-hover:text-white">
+                {tech.name}
+              </p>
+            </a>
+          ))}
+        </div>
+
+        <div className="mt-14 grid gap-6 md:grid-cols-3">
+          <div className="card">
+            <p className="section-kicker">Backend</p>
+            <h3 className="mt-2 text-lg font-semibold">Lenguajes & Frameworks</h3>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <span className="chip">Node.js</span>
+              <span className="chip">Python</span>
+              <span className="chip">Java + Spring</span>
+              <span className="chip">.NET</span>
+              <span className="chip">Express</span>
+              <span className="chip">Flask</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <p className="section-kicker">Bases de Datos</p>
+            <h3 className="mt-2 text-lg font-semibold">SQL & NoSQL</h3>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <span className="chip">PostgreSQL</span>
+              <span className="chip">MySQL</span>
+              <span className="chip">MongoDB</span>
+              <span className="chip">SQL Server</span>
+              <span className="chip">Firebase</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <p className="section-kicker">Frontend</p>
+            <h3 className="mt-2 text-lg font-semibold">Web & Responsive</h3>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <span className="chip">React</span>
+              <span className="chip">TailwindCSS</span>
+              <span className="chip">Vite</span>
+              <span className="chip">JavaScript</span>
+              <span className="chip">HTML5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
 export default TechSkills;
+

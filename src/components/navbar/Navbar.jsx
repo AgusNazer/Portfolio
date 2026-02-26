@@ -18,14 +18,14 @@ const Navbar = () => {
     setMsjLogo(alert('hey there!'))
   }
   return (
-    <div>
-      <nav className="bg-gray-800">
-        <div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
-          <div className="relative flex h- items-center justify-between">
+    <div className="sticky top-0 z-50">
+      <nav className="border-b border-chrome/70 bg-graphite/80 backdrop-blur">
+        <div className="container-max">
+          <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
-                className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-white"
+                className="relative inline-flex items-center justify-center rounded-md p-2 text-zinc-300 hover:text-white"
                 aria-controls="mobile-menu"
                 aria-expanded={menuOpen}
                 onClick={toggleMobileMenu}
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <span className="absolute -inset-0.5"></span>
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`block h-6 w-6 mt-16 ml-4 ${menuOpen ? "hidden" : "block"}`}
+                  className={`block h-6 w-6 ${menuOpen ? "hidden" : "block"}`}
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="3"
@@ -63,15 +63,18 @@ const Navbar = () => {
               </button>
             </div>
             <div className="absolute inset-y-0 left-0 hidden sm:flex items-center">
-              <NavLink to='./'>
-          <img
-            src={navbarImg}
-            alt="Icono"
-            className="w-16 h-12 rounded-md"
-            onClick={logoMsj}
-          />
-          </NavLink>
-        </div>
+              <NavLink to='./' className="flex items-center gap-3" onClick={logoMsj}>
+                <img
+                  src={navbarImg}
+                  alt="Icono"
+                  className="h-10 w-10 rounded-lg border border-chrome/70"
+                />
+                <div className="leading-tight">
+                  <p className="text-sm font-semibold text-zinc-100">Agustin Nazer</p>
+                  <p className="text-xs text-warm">Backend & Fullstack</p>
+                </div>
+              </NavLink>
+            </div>
       
 
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
@@ -80,35 +83,35 @@ const Navbar = () => {
                   <div className="flex space-x-4">
                     <NavLink
                       to="/#home-section"
-                      className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
+                      className="text-sm font-medium text-zinc-300 hover:text-white"
                       aria-current="page"
                     >
                       Inicio
                     </NavLink>
                     <NavLink
                       to="/#about-section"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                      className="text-sm font-medium text-zinc-300 hover:text-white"
                     
                     >
                       Acerca de mi
                     </NavLink>
                     <NavLink
                       to="/#techs-section"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                      className="text-sm font-medium text-zinc-300 hover:text-white"
                       aria-current="page"
                     >
                       Skills
                     </NavLink>
                     <NavLink
                       to="/#proyects-section"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-m font-medium"
+                      className="text-sm font-medium text-zinc-300 hover:text-white"
                       aria-current="page"
                     >
                       Projectos
                     </NavLink>
                     <NavLink
                       to="/#contact-section"
-                      className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-m font-medium"
+                      className="text-sm font-medium text-zinc-300 hover:text-white"
                       aria-current="page"
                     >
                       Contactame
@@ -122,39 +125,39 @@ const Navbar = () => {
    
 
         <div
-          className={`${menuOpen ? "block mt-0" : "hidden"} sm:hidden`}
+          className={`${menuOpen ? "block" : "hidden"} sm:hidden`}
           id="mobile-menu"
         >
-          <div className="space-y-1 px-2 pb-3 pt-2 mobile-menu">
+          <div className="space-y-2 border-t border-chrome/70 px-4 pb-4 pt-4">
             <a
               href="/#home-section"
-              className=" text-white hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-"
+              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
               aria-current="page"
             >
               Inicio
             </a>
             <a
               href="/#about-section"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
             >
-              Acerca de mí
+              Acerca de mi
             </a>
             <a
               href="/#techs-section"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
             >
               Skills
             </a>
             <a
               href="/#proyects-section"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
               aria-current="page"
             >
               Projectos
             </a>
             <a
               href="/#contact-section"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
               aria-current="page"
             >
               Contactame

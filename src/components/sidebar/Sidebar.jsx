@@ -12,11 +12,11 @@ const Sidebar = () => {
 
 
   return (
-    <div className="fixed left-0 bottom-0 md:left-1.5 w-full md:w-auto bg-gray-500 bg-opacity-30 md:bg-opacity-70 p-4 md:p-2 flex md:flex-col justify-center items-center gap-4 rounded-full rounded-bl-full md:rounded-tr-full md:rounded-br-full z-50 md:top-1/2 md:transform md:-translate-y-1/2">
+    <div className="fixed bottom-4 left-1/2 z-40 flex -translate-x-1/2 items-center gap-3 rounded-full border border-chrome/70 bg-graphite/80 px-4 py-2 backdrop-blur md:left-6 md:top-1/2 md:-translate-x-0 md:-translate-y-1/2 md:flex-col md:px-2">
        
       <NavLink
         to="/#home-section"
-        className="text-gray-100 md:text-gray-300 bg-gray-500 rounded-md px-3 py-2 text-2xl md:text-m font-medium"
+        className="rounded-full p-2 text-zinc-200 hover:text-white"
       >
         <h2>
           <AiFillHome size="1.6rem" />
@@ -24,7 +24,7 @@ const Sidebar = () => {
       </NavLink>
       <NavLink
         to="/#about-section"
-        className="text-gray-100 md:text-gray-300 bg-gray-500 rounded-md px-3 py-2 text-2xl md:text-m font-medium"
+        className="rounded-full p-2 text-zinc-200 hover:text-white"
       >
         <h2>
           <FaOdnoklassniki size="1.6rem" />
@@ -32,7 +32,7 @@ const Sidebar = () => {
       </NavLink>
       <NavLink
         to="/#techs-section"
-        className="text-gray-100 md:text-gray-300 bg-gray-500 rounded-md px-3 py-2 text-2xl md:text-m font-medium"
+        className="rounded-full p-2 text-zinc-200 hover:text-white"
       >
         <h2>
           <AiFillCode size="1.6rem" />
@@ -40,7 +40,7 @@ const Sidebar = () => {
       </NavLink>
       <NavLink
         to="/#proyects-section"
-        className="text-gray-100 md:text-gray-300 bg-gray-500 rounded-md px-3 py-2 text-2xl md:text-m font-medium"
+        className="rounded-full p-2 text-zinc-200 hover:text-white"
       >
         <h2>
           <FaBookBookmark size="1.6rem" />
@@ -48,7 +48,7 @@ const Sidebar = () => {
       </NavLink>
       <NavLink
         to="/#contact-section"
-        className="text-gray-100 md:text-gray-300 bg-gray-500 rounded-md px-3 py-2 text-2xl md:text-m font-medium"
+        className="rounded-full p-2 text-zinc-200 hover:text-white"
       >
         <h2>
           <FaMessage size="1.6rem" />

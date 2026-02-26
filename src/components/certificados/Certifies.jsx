@@ -5,128 +5,90 @@ import TodoCodeImg from "../../assets/images/TodoCode.png";
 import javaCert from "../../assets/images/java-cert.png";
 
 const Certifies = () => {
+  const certificates = [
+    {
+      title: "FullStack Developer",
+      issuer: "Soy Henry Bootcamp",
+      url: "https://certificates.soyhenry.com/new-cert?id=3e27ae334de5917f63a52c3dfd45628ca54467b1230471962ac7089b8994fc87",
+      image: HenryImg,
+    },
+    {
+      title: "Java + Spring Cloud Microservices",
+      issuer: "TodoCode Academy",
+      url: "https://todocodeacademy.com/certificate/unu/",
+      image: TodoCodeImg,
+    },
+    {
+      title: "EF English Test",
+      issuer: "EF Education First",
+      url: "https://www.efset.org/cert/97y7TS",
+      image: efset,
+    },
+    {
+      title: "Frontend React",
+      issuer: "Coder House",
+      url: "https://pub.coderhouse.com/legacy-certificates/63d9aef3645fb0000ea3ae6c?lang",
+      image: reactImg,
+    },
+    {
+      title: "Java + Spring (Monolitic)",
+      issuer: "Coder House",
+      url: "https://pub.coderhouse.com/legacy-certificates/67e1e20c7ac56fd48702adcc?lang",
+      image: javaCert,
+    },
+  ];
+
   return (
-    <div className="text-center mb-20">
-      <h1 className="text-xl mb-10 ">DESCARGA DE CV</h1>
-
-      <div className="flex flex-wrap justify-center gap-2 ">
-        <a
-          className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          href="https://drive.google.com/file/d/1SsCqvmMUpeIyIG9Bvlm46aVXOOpGm6tD/view?usp=sharing"
-          target="_blank "
-        >
-          Cv Agustin Nazer
-        </a>
-        {/* <a className="md:m-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" href="https://drive.google.com/file/d/1BRi8FZ5lP45yk1UjgEVBuIAbj6UfAy2l/view?usp=sharing" target="_blank ">English version</a> */}
-      </div>
-
-      <div className="mt-4 grid gap-4 md:grid-cols-3  rounded-lg shadow-md mb-10">
-        <div className="">
-
-         {/* Todo code  */}
-        <div className="mt-10">
-            <h3>Java + Spring Cloud</h3>
-            <h4 className="mb-4 text-lg">Microservicios</h4>
-            <a
-              href="https://todocodeacademy.com/certificate/unu/"
-              target="blank"
-              className=""
-            >
-              <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Ir al certificado
-              </span>
-            </a>
-            <img
-              src={TodoCodeImg}
-              alt="Thumbnail"
-              className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
-            />
-          </div>
-          
-
-          
-          
-          <div className="mt-10">
-            <h3>FullStack Developer</h3>
-            <h4 className="mb-4 text-lg">Henry bootcamp</h4>
-            <a
-              href="https://certificates.soyhenry.com/new-cert?id=3e27ae334de5917f63a52c3dfd45628ca54467b1230471962ac7089b8994fc87"
-              target="blank"
-              className=""
-            >
-              <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Ir al certificado
-              </span>
-            </a>
-            <img
-              src={HenryImg}
-              alt="Thumbnail"
-              className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
-            />
-          </div>
-          
-          
-          <br />
-        </div>
-        <div className="mt-10">
-          <div className="">
-            <h3>EF English Test</h3>
-            <h4 className="mb-4 text-lg">English Level certification</h4>
-            <a href="https://www.efset.org/cert/97y7TS" target="blank">
-              <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Ir al certificado
-              </span>
-            </a>
-            <img
-              src={efset}
-              alt="Thumbnail"
-              className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
-            />
-          </div>
-
-           {/* Java + spring boot basico  */}
-        <div className="mt-10">
-            <h3>Java + Spring basico</h3>
-            <h4 className="mb-4 text-lg">Curso de Java estructura monolitica</h4>
-            <a
-              href="https://pub.coderhouse.com/legacy-certificates/67e1e20c7ac56fd48702adcc?lang"
-              target="blank"
-              className=""
-            >
-              <span className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-                Ir al certificado
-              </span>
-            </a>
-            <img
-              src={javaCert}
-              alt="Thumbnail"
-              className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
-            />
-          </div>
-
-          <br />
-        </div>
-        <div className="mb-8 mt-10">
+    <section id="certifications-section" className="section section-anchor">
+      {/* <div className="container-max">
+        <div className="flex items-center justify-between gap-6">
           <div>
-            <h3>Frontend react</h3>
-            <h4 className="mb-4 text-lg">Coder House </h4>
-            <a
-              href="https://pub.coderhouse.com/legacy-certificates/63d9aef3645fb0000ea3ae6c?lang"
-              className="py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-            >
-              Ir al certificado
-            </a>
-            <img
-              src={reactImg}
-              alt="Thumbnail"
-              className="w-2/3 h-auto mt-8 mx-auto rounded-lg"
-            />
+            <p className="section-kicker">Certificaciones</p>
+            <h2 className="section-title">CV & Certificados</h2>
           </div>
+          <span className="badge">Verificados</span>
         </div>
-        
-      </div>
-      
-    </div>
+
+        <div className="mt-8">
+          <a
+            href="https://drive.google.com/file/d/1Hue3aynGZ--tJIYr7hBCwloB1orb7wjQ/view?usp=sharing"
+            target="_blank"
+            className="btn-primary"
+          >
+            Descargar CV Completo
+          </a>
+        </div>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {certificates.map((cert) => (
+            <a
+              key={cert.title}
+              href={cert.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card group flex flex-col gap-4 transition hover:border-accent/70"
+            >
+              <div>
+                <p className="section-kicker">Certificado</p>
+                <h3 className="mt-2 text-lg font-semibold transition group-hover:text-accent">
+                  {cert.title}
+                </h3>
+                <p className="mt-1 text-sm text-zinc-400">{cert.issuer}</p>
+              </div>
+              <img
+                src={cert.image}
+                alt={cert.title}
+                className="h-40 w-full rounded-xl border border-chrome/70 object-cover"
+              />
+              <div className="flex items-center gap-2 text-xs font-medium text-accent">
+                <span>Ver certificado</span>
+                <span>→</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div> */}
+    </section>
   );
 };
 
