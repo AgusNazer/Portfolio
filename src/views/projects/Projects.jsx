@@ -7,7 +7,7 @@ import naikiImg from "../../assets/images/NaikiReact.png";
 import toDoApp from "../../assets/images/toDoApp.png";
 import formApp from "../../assets/images/formApp.png";
 import xwallet from "../../assets/images/x-wallet.png"
-import tiendaElectro from "../../assets/images/Tienda-Electro.png"
+// import tiendaElectro from "../../assets/images/Tienda-Electro.png"
 import gaia from "../../assets/images/gaia.png"
 import finalesya from "../../assets/images/homep.png"
 import postulate from "../../assets/images/postulateApp.jpeg"
@@ -126,7 +126,7 @@ const Projects = () => {
           />
         </div> 
 
-        <div className="card flex flex-col gap-4 text-left">
+        {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Tienda Electro</h3>
           <p className="text-sm text-warm">Java-Spring-ReactJs</p>
           <p className="text-sm text-accentSoft">
@@ -167,7 +167,7 @@ const Projects = () => {
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
-        </div> 
+        </div>  */}
 
       <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Movie rater</h3>
