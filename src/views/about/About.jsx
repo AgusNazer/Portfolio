@@ -4,7 +4,7 @@ import pic from "../../assets/images/porfolioSinFondo.png"
 
 const About = () => {
   return (
-    <section id="about-section" className="section section-anchor">
+    <section id="about-section" className="section-anchor pt-24 pb-8 md:pt-32 md:pb-12">
       <div className="container-max">
         <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="card">

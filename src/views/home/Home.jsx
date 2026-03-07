@@ -1,4 +1,3 @@
-import Certifies from "../../components/certificados/Certifies";
 import Footer from "../../components/footer/Footer";
 import About from "../about/About";
 import Projects from "../projects/Projects";
@@ -9,18 +8,12 @@ const Home = () => {
   return (
     <div className="bg-ink text-zinc-100">
       <Sidebar />
-      <section id="home-section" className="section section-anchor">
+      <About />
+      <section id="home-section" className="section-anchor py-8 md:py-12">
         <div className="container-max">
           <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
             <div className="space-y-6">
               <span className="badge">Backend & Fullstack</span>
-              <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
-                Agustin Nazer
-              </h1>
-              <p className="text-lg text-zinc-300">
-                Desarrollo soluciones web con foco en backend y arquitecturas
-                limpias. Diseño APIs RESTful robustas y construyo soluciones escalabales. 
-              </p>
               <div className="flex flex-wrap gap-3">
                 <a href="/#proyects-section" className="btn-primary">
                   Ver proyectos
@@ -72,7 +65,7 @@ const Home = () => {
                   APIs RESTful • DB Relacionales & NoSQL • IA
                 </p>
                 <p>
-                  <span className="text-violet">$</span> git commit -m "building scalable systems"
+                  <span className="text-violet">$</span> git commit -m &quot;building scalable systems&quot;
                 </p>
                 <p className="text-zinc-400">[main] ✓ Clean code & architecture</p>
               </div>
@@ -80,9 +73,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <About />
       <Projects />
-      <Certifies />
       <TechSkills />
       <Footer />
     </div>

@@ -82,16 +82,8 @@ const Navbar = () => {
                 <div className="flex items-center space-x-4">
                   <div className="flex space-x-4">
                     <NavLink
-                      to="/#home-section"
-                      className="text-sm font-medium text-zinc-300 hover:text-white"
-                      aria-current="page"
-                    >
-                      Inicio
-                    </NavLink>
-                    <NavLink
                       to="/#about-section"
                       className="text-sm font-medium text-zinc-300 hover:text-white"
-                    
                     >
                       Acerca de mi
                     </NavLink>
@@ -129,13 +121,6 @@ const Navbar = () => {
           id="mobile-menu"
         >
           <div className="space-y-2 border-t border-chrome/70 px-4 pb-4 pt-4">
-            <a
-              href="/#home-section"
-              className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"
-              aria-current="page"
-            >
-              Inicio
-            </a>
             <a
               href="/#about-section"
               className="block rounded-md px-3 py-2 text-sm font-medium text-zinc-200 hover:text-white"

@@ -59,7 +59,7 @@ const TechSkills = () => {
   ];
 
   return (
-    <section id="techs-section" className="section section-anchor">
+    <section id="techs-section" className="section-anchor py-12 md:py-16">
       <div className="container-max">
         <div className="flex items-center justify-between gap-6">
           <div>
@@ -69,7 +69,7 @@ const TechSkills = () => {
           <span className="badge">Fullstack</span>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+        {/* <div className="mt-10 grid gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {technologies.map((tech) => (
             <a
               key={tech.name}
@@ -88,7 +88,7 @@ const TechSkills = () => {
               </p>
             </a>
           ))}
-        </div>
+        </div> */}
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           <div className="card">
@@ -97,8 +97,10 @@ const TechSkills = () => {
             <div className="mt-4 flex flex-wrap gap-2">
               <span className="chip">Python</span>
               <span className="chip">.NET</span>
+              <span className="chip">FastApi</span>
               <span className="chip">Flask</span>
               <span className="chip">Docker</span>
+              <span className="chip">Redis</span>
               <span className="chip">Git</span>
             </div>
           </div>

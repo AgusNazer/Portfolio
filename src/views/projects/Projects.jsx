@@ -1,10 +1,10 @@
 import Pdm from "../../assets/images/PdM2.png";
-import piFoods from "../../assets/images/PI-Foods.png";
+// import piFoods from "../../assets/images/PI-Foods.png";
 import javaMovies from "../../assets/images/javaMovies.png";
-import recipeImg from "../../assets/images/RecipeApp.png";
-import coffeeImg from "../../assets/images/CoffeeApp.png";
-import naikiImg from "../../assets/images/NaikiReact.png";
-import toDoApp from "../../assets/images/toDoApp.png";
+// import recipeImg from "../../assets/images/RecipeApp.png";
+// import coffeeImg from "../../assets/images/CoffeeApp.png";
+// import naikiImg from "../../assets/images/NaikiReact.png";
+// import toDoApp from "../../assets/images/toDoApp.png";
 import formApp from "../../assets/images/formApp.png";
 import xwallet from "../../assets/images/x-wallet.png"
 // import tiendaElectro from "../../assets/images/Tienda-Electro.png"
@@ -12,10 +12,12 @@ import gaia from "../../assets/images/gaia.png"
 import finalesya from "../../assets/images/homep.png"
 import postulate from "../../assets/images/postulateApp.jpeg"
 import agentecompra from "../../assets/images/agentecompra.jpeg"
+import hacelocorto from "../../assets/images/hacelocorto.png"
+import speakEasy from "../../assets/images/SpeakEasy.png"
 
 const Projects = () => {
   return (
-    <section id="proyects-section" className="section section-anchor">
+    <section id="proyects-section" className="section-anchor py-12 md:py-16">
       <div className="container-max">
         <div className="flex items-center justify-between gap-6">
           <div>
@@ -26,8 +28,6 @@ const Projects = () => {
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
-
 
         <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Gaia Ecotrack</h3>
@@ -48,6 +48,33 @@ const Projects = () => {
           </div>
           <img
             src={gaia}
+            alt="Thumbnail"
+            className="h-auto w-full rounded-xl border border-chrome/70"
+          />
+        </div> 
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Hacelo Corto</h3>
+          <p className="text-sm text-warm">FastApi-Docker-Redis-React js</p>
+
+          <p className="">
+
+            Projecto desarrollado dentro de la plataforma de NoCountry para un cliente que buscaba 
+            automatizar videos para poder publicarlos en redes sociales. El core de la plataforma es 
+            convertir videos a un formato vertical para shorts sin perder calidad ni foco de los objetos 
+            prinicipales. Se utilizó Python para el backend, y React para el frontend. El proyecto se encuentra en etapa de MVP 
+            desarrollado, y se espera que tenga mas funcionalidades en el futuro. 
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://s02-26-equipo-04-web-app-developmen.vercel.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
+          <img
+            src={hacelocorto}
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
@@ -273,12 +300,11 @@ const Projects = () => {
           />
         </div>
 
-        <div className="card flex flex-col gap-4 text-left">
+        {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Api-Foods</h3>
           <p className="text-sm text-warm">NodeJs-React-PostgreSql</p>
           <p className="">
-            {/* Was developed for my Individual Project on the Henry Fullstack
-            Developer bootcamp. The data is extracted from the Spoonacular API. */}
+
             Fue desarrollado durante el bootcamp de Soy Henry, y es mi proyecto individual 
             con la temática de recetas de comidas. La info fue extraida de la API Spoonacular.
           </p>
@@ -296,9 +322,9 @@ const Projects = () => {
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
-        </div>
+        </div> */}
 
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Speak easy</h1>
           <h3 className="mb-2">Aplicación Flutter </h3>
           <p className="">
@@ -320,9 +346,9 @@ const Projects = () => {
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div> */}
+        </div>
 
-         {/* //////////////// */}
+        
         
         {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ReactJs e-commerce</h1>
