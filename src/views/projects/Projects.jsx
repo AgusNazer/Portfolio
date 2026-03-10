@@ -66,7 +66,7 @@ const Projects = () => {
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://s02-26-equipo-04-web-app-developmen.vercel.app/"
+              href="https://hacelo-corto-two.vercel.app/"
               target="_blank"
               className="btn-primary"
             >
