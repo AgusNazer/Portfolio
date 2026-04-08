@@ -29,6 +29,7 @@ const About = () => {
                 explorando IA y agentes inteligentes.
               </p>
               <div className="flex flex-wrap gap-2">
+                <span className="chip">Java + Spring boot</span>
                 <span className="chip">Python</span>
                 <span className="chip">C#</span>
                 <span className="chip">FastAPI</span>

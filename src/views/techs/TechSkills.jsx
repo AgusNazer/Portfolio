@@ -95,6 +95,7 @@ const TechSkills = () => {
             <p className="section-kicker">Backend</p>
             <h3 className="mt-2 text-lg font-semibold">Lenguajes & Herramientas</h3>
             <div className="mt-4 flex flex-wrap gap-2">
+              <span className="chip">Java + Spring boot</span>
               <span className="chip">Python</span>
               <span className="chip">.NET</span>
               <span className="chip">FastApi</span>
