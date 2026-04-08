@@ -43,7 +43,7 @@ const About = () => {
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
           ⭐️¡Hola! Soy un desarrollador de software con experiencia en aplicaciones web y web3. Tengo experiencia trabajando con tecnologías
-como Python y FastApi, y el ecosistema de .NET, entity framework, y bases de datos relacionales como PostgreSql y SQL Server, y no relacionales como MongoDB. Ultimamente, he estado explorando el desarrollo con IA, ya que considero este campo una gran oportunidad y 
+como Python y FastApi, el ecosistema de .NET, entity framework y Java son Springboot. Como se se puede ver, mi foco esta puesto en el Backend, aunque tambien tengo conocimientos de Frontend y otras areas. Manejo bases de datos relacionales como PostgreSql y SQL Server, y no relacionales como MongoDB. Ultimamente, he estado explorando el desarrollo con IA, ya que considero este campo una gran oportunidad y 
 un gran campo que aun falta explorar.
             </p>
             <p>
