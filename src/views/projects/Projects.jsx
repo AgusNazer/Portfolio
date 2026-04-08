@@ -14,6 +14,7 @@ import postulate from "../../assets/images/postulateApp.jpeg"
 import agentecompra from "../../assets/images/agentecompra.jpeg"
 import hacelocorto from "../../assets/images/hacelocorto.png"
 import speakEasy from "../../assets/images/SpeakEasy.png"
+import sportevents from "../../assets/images/sportevents.png"
 
 const Projects = () => {
   return (
@@ -22,7 +23,7 @@ const Projects = () => {
         <div className="flex items-center justify-between gap-6">
           <div>
             <p className="section-kicker">Proyectos</p>
-            <h2 className="section-title">Projectos</h2>
+            {/* <h2 className="section-title">Proyectos</h2> */}
           </div>
           <span className="badge">Produccion y MVPs</span>
         </div>
@@ -48,6 +49,36 @@ const Projects = () => {
           </div>
           <img
             src={gaia}
+            alt="Thumbnail"
+            className="h-auto w-full rounded-xl border border-chrome/70"
+          />
+        </div> 
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">Sport Events</h3>
+          <p className="text-sm text-warm">Spring boot + Python + Next js</p>
+
+          <p className="">
+
+            Plataforma web inteligente para descubrir y gestionar eventos deportivos, como carreras, competiciones de CrossFit y triatlones.
+
+La aplicación centraliza información que hoy está dispersa en múltiples sitios. 
+incorpora un agente de inteligencia artificial que permite:
+
+Recomendar eventos personalizados según ubicación, nivel y fechas
+Responder consultas en lenguaje natural (ej: “qué competencias hay en mayo cerca mío”)
+Actuar como un “coach digital” que ayuda a elegir la mejor competencia
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://sport-events-frontend-rose.vercel.app/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
+          <img
+            src={sportevents}
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
