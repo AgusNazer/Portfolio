@@ -43,9 +43,12 @@ const About = () => {
             <h3 className="section-title">Perfil tecnico</h3>
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ⭐️¡Hola! Soy un desarrollador de software con experiencia en aplicaciones web y web3. Tengo experiencia trabajando con tecnologías
-como Python y FastApi, el ecosistema de .NET, entity framework y Java son Springboot. Como se se puede ver, mi foco esta puesto en el Backend, aunque tambien tengo conocimientos de Frontend y otras areas. Manejo bases de datos relacionales como PostgreSql y SQL Server, y no relacionales como MongoDB. Ultimamente, he estado explorando el desarrollo con IA, ya que considero este campo una gran oportunidad y 
-un gran campo que aun falta explorar.
+          ⭐️¡Hola! Soy un desarrollador de software con experiencia en aplicaciones web y web3. Si estás leyendo esto, 
+          voy a ser sincero: no te voy a vender que el código es mi única razón de existir o que &quot;respiro tecnología&quot;. 
+          Mi verdadera pasión es el deporte. Llevo más de 15 años haciendo CrossFit, running y triatlón; me gusta estar 
+          en el mar y en contacto con la naturaleza.
+
+¿Qué tiene que ver esto con mi perfil como desarrollador? Mucho. Entiendo mi vida como un balance. El desarrollo de software me gusta, me divierte y le dedico mucho tiempo, pero la disciplina y la cabeza que uso para terminar un entrenamiento son las mismas que aplico para resolver un bug o diseñar una API. Menos frases de manual y más realidad: me gusta lo que hago porque me permite mantener este estilo de vida.
             </p>
             <p>
         ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
