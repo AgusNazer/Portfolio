@@ -428,11 +428,10 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           />
         </div> */}
 
-        <div className="card flex flex-col gap-4 text-left">
+        {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Henry challenge</h3>
           <p className="text-sm text-warm">ReactJs vite - mongoDb</p>
           <p className="">
-            {/* Was developed for me on the Coderhouse course of React. */}
             Un challengue full stack realizado en 48 hs. 
             Desarrollé un CRUD completo en un formulario. Utilice MongoDb, mongoose, nodeJs, express, react y tailwind. 
           </p>
@@ -450,7 +449,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
-        </div>
+        </div> */}
 
         {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Your calorie App</h1>
