@@ -43,13 +43,11 @@ const About = () => {
             <h3 className="section-title">Perfil tecnico</h3>
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          ⭐️¡Hola! Soy un desarrollador de software con experiencia en aplicaciones web y web3. Si estás leyendo esto, 
-          voy a ser sincero: no te voy a vender que el código es mi única razón de existir o que &quot;respiro tecnología&quot;. 
-          Mi verdadera pasión es el deporte. Llevo más de 15 años haciendo CrossFit, running y triatlón; me gusta estar 
-          en el mar y en contacto con la naturaleza.
-
-¿Qué tiene que ver esto con mi perfil como desarrollador? Mucho. Entiendo mi vida como un balance. El desarrollo de software me gusta, me divierte y le dedico mucho tiempo, pero la disciplina y la cabeza que uso para terminar un entrenamiento son las mismas que aplico para resolver un bug o diseñar una API. Menos frases de manual y más realidad: me gusta lo que hago porque me permite mantener este estilo de vida.
-            </p>
+          Especialista en desarrollo backend con sólidos conocimientos, prinicipalmente en Java. 
+          Experiencia en el diseño de APIs robustas, manejo de lógica de negocio y optimización 
+          de sistemas para asegurar escalabilidad y rendimiento.
+          Enfocado en soluciones técnicas eficientes siempre bajo estándares de calidad de software.
+        </p>
             <p>
         ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
 resolución de problemas de manera analítica, lo que hoy me permite pensar soluciones y adaptarme a ellas. Me interesa
