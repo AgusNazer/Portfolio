@@ -43,16 +43,13 @@ const About = () => {
             <h3 className="section-title">Perfil tecnico</h3>
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          Especialista en desarrollo backend con sólidos conocimientos, prinicipalmente en Java. 
-          Experiencia en el diseño de APIs robustas, manejo de lógica de negocio y optimización 
-          de sistemas para asegurar escalabilidad y rendimiento.
-          Enfocado en soluciones técnicas eficientes siempre bajo estándares de calidad de software.
-        </p>
-            <p>
-        ⭐️Como estudiante de la Tecnicatura Universitaria en Programación en la UTN, he desarrollado habilidades como la
-resolución de problemas de manera analítica, lo que hoy me permite pensar soluciones y adaptarme a ellas. Me interesa
-entender la lógica de negocio que hay detrás, y por eso el backend es mi mayor área de interés. Me encantaria poder compartir mis conocimientos, y crecer proefsionalmente
-en una empresa que me permita seguir aprendiendo y aportando valor.
+          Especialista en desarrollo Backend, principalmente con Java.
+Tengo experiencia trabajando bajo metodología SCRUM y cuento con 2+ años de experiencia.
+Cuento con experiencia en el diseño, desarrollo y mantenimiento de APIs RESTful, implementación de lógica de negocio y modelado de sistemas escalables.
+He trabajado con arquitecturas monolíticas y de microservicios.
+
+He trabajado con integración con bases de datos relacionales y no relacionales, autenticación y autorización. Ademas este ultimo tiempo he estado trabajando con IA y automatizaciones utilizando 
+distintos modelos de lenguaje, y estoy muy interesado en seguir aprendiendo sobre este tema.
             </p>
             <p>
           {/* Being a creative person I have focused mainly on the frontend area..
