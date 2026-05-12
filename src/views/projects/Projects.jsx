@@ -493,7 +493,36 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div> */}
+            
         </div>
+                {/* <div className="card">
+              <div className="flex items-center gap-2 text-xs text-zinc-400">
+                <span className="h-2 w-2 rounded-full bg-accent"></span>
+                <span className="h-2 w-2 rounded-full bg-violet"></span>
+                <span className="h-2 w-2 rounded-full bg-zinc-500"></span>
+                <span className="ml-auto font-mono">~/workspace</span>
+              </div>
+              <div className="mt-6 space-y-4 rounded-xl border border-chrome/70 bg-graphite/80 p-4 font-mono text-sm text-zinc-300">
+                <p>
+                  <span className="text-violet">$</span> whoami
+                </p>
+                <p className="text-zinc-400">agustin_nazer</p>
+                <p>
+                  <span className="text-violet">$</span> cat role.txt
+                </p>
+                <p className="text-zinc-400">Software Developer | Backend Developer</p>
+                <p>
+                  <span className="text-violet">$</span> cat focus.txt
+                </p>
+                <p className="text-zinc-400">
+                  APIs RESTful • DB Relacionales & NoSQL • IA
+                </p>
+                <p>
+                  <span className="text-violet">$</span> git commit -m &quot;building scalable systems&quot;
+                </p>
+                <p className="text-zinc-400">[main] ✓ Clean code & architecture</p>
+              </div>
+            </div> */}
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ const Home = () => {
       <section id="home-section" className="section-anchor py-8 md:py-12">
         <div className="container-max">
           <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
-            <div className="space-y-6">
+            {/* <div className="space-y-6">
               <span className="badge">Backend & Fullstack</span>
               <div className="flex flex-wrap gap-3">
                 <a href="/#proyects-section" className="btn-primary">
@@ -41,8 +41,8 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="card">
+            </div> */}
+            {/* <div className="card">
               <div className="flex items-center gap-2 text-xs text-zinc-400">
                 <span className="h-2 w-2 rounded-full bg-accent"></span>
                 <span className="h-2 w-2 rounded-full bg-violet"></span>
@@ -69,7 +69,7 @@ const Home = () => {
                 </p>
                 <p className="text-zinc-400">[main] ✓ Clean code & architecture</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
