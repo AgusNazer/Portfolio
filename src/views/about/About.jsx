@@ -24,9 +24,7 @@ const About = () => {
             </div>
             <div className="mt-6 space-y-4 text-sm text-zinc-300">
               <p>
-                Desarrollador de Software enfocado mas al backend. Diseño de APIs RESTful y
-                manejo bases de datos relacionales y No relacionales. Actualmente
-                explorando IA y agentes inteligentes.
+                2+ años de experiencia en desarrollo backend. 
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="chip">Java + Spring boot</span>
@@ -44,11 +42,9 @@ const About = () => {
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
           Especialista en desarrollo Backend, principalmente con Java.
-Tengo experiencia trabajando bajo metodología SCRUM y cuento con 2+ años de experiencia.
-Cuento con experiencia en el diseño, desarrollo y mantenimiento de APIs RESTful, implementación de lógica de negocio y modelado de sistemas escalables.
-He trabajado con arquitecturas monolíticas y de microservicios.
+Tengo experiencia trabajando bajo metodología SCRUM. 
 
-He trabajado con integración con bases de datos relacionales y no relacionales, autenticación y autorización. Ademas este ultimo tiempo he estado trabajando con IA y automatizaciones utilizando 
+He trabajado con integración con bases de datos relacionales y no relacionales. Este ultimo tiempo he estado trabajando con IA y automatizaciones utilizando 
 distintos modelos de lenguaje, y estoy muy interesado en seguir aprendiendo sobre este tema.
             </p>
             <p>
