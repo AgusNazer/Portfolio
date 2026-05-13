@@ -70,7 +70,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://sport-events-frontend-rose.vercel.app/"
+              href="https://sportevents.anuarnazer.com/"
               target="_blank"
               className="btn-primary"
             >
@@ -121,7 +121,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://agentecompra.netlify.app/"
+              href="https://agent-validation.anuarnazer.com/"
               target="_blank"
               className="btn-primary"
             >
@@ -145,7 +145,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://finalesyafrontend.netlify.app/"
+              href="https://finalesya.anuarnazer.com/"
               target="_blank"
               className="btn-primary"
             >
@@ -170,7 +170,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://postulationapp.onrender.com/"
+              href="https://tiendaelectro.anuarnazer.com/"
               target="_blank"
               className="btn-primary"
             >
