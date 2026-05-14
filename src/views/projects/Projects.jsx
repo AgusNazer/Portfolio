@@ -145,7 +145,8 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://finalesya.anuarnazer.com/"
+              // href="https://finalesya.anuarnazer.com/"
+              href="https://finalesyafrontend.netlify.app/login"
               target="_blank"
               className="btn-primary"
             >
@@ -170,7 +171,8 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://jobs.anuarnazer.com/"
+              // href="https://jobs.anuarnazer.com/"
+              href="https://postulationapp.onrender.com/"
               target="_blank"
               className="btn-primary"
             >
