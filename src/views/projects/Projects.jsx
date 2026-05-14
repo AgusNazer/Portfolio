@@ -170,7 +170,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           </p>
           <div className="flex flex-wrap gap-2">
             <a
-              href="https://tiendaelectro.anuarnazer.com/"
+              href="https://jobs.anuarnazer.com/"
               target="_blank"
               className="btn-primary"
             >
