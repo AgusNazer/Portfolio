@@ -9,13 +9,13 @@ const About = () => {
         <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="card">
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src={pic}
                 alt="Agustin Nazer"
                 className="h-24 w-24 rounded-2xl border border-chrome/70 object-cover"
-              />
+              /> */}
               <div>
-                <p className="section-kicker">Sobre mi</p>
+                {/* <p className="section-kicker">Sobre mi</p> */}
                 <h2 className="section-title">Agustin Nazer</h2>
                 <p className="mt-2 text-sm text-zinc-300">
                   Software Developer | Backend Developer

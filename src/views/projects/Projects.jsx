@@ -270,7 +270,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           />
         </div> 
         
-        <div className="card flex flex-col gap-4 text-left">
+        {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">X-Wallet</h3>
           <p className="text-sm text-warm">NodeJs-React</p>
           <p className="text-sm text-accentSoft">Falta optimizar cargado de inicio.</p>
@@ -288,11 +288,6 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
             >
               Ir al deploy
             </a>
-          {/* <a href="https://x-wallet-crypto.netlify.app/" 
-          target="_blank"
-            className="self-center block mt-4 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          >Ir al json
-          </a> */}
             <a
               href="https://github.com/AgusNazer/x-wallet"
               target="_blank"
@@ -306,7 +301,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
-        </div> 
+        </div>  */}
 
         <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Puebla del Mar</h3>
@@ -357,7 +352,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           />
         </div> */}
 
-        <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Speak easy</h1>
           <h3 className="mb-2">Aplicación Flutter </h3>
           <p className="">
@@ -379,7 +374,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
             alt="Thumbnail"
             className="w-full h-auto mt-4 rounded-lg"
           />
-        </div>
+        </div> */}
 
         
         
