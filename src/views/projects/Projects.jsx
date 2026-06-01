@@ -13,8 +13,9 @@ import finalesya from "../../assets/images/homep.png"
 import postulate from "../../assets/images/postulateApp.jpeg"
 import agentecompra from "../../assets/images/agentecompra.jpeg"
 import hacelocorto from "../../assets/images/hacelocorto.png"
-import speakEasy from "../../assets/images/SpeakEasy.png"
+// import speakEasy from "../../assets/images/SpeakEasy.png"
 import sportevents from "../../assets/images/sportevents.png"
+import portadaProjecto from "../../assets/images/portadaProjecto.png"
 
 const Projects = () => {
   return (
@@ -49,6 +50,29 @@ const Projects = () => {
           </div>
           <img
             src={gaia}
+            alt="Thumbnail"
+            className="h-auto w-full rounded-xl border border-chrome/70"
+          />
+        </div> 
+        <div className="card flex flex-col gap-4 text-left">
+          <h3 className="text-xl font-semibold">World Cup 26 predictor</h3>
+          <p className="text-sm text-warm">Docker-Python-FastApi-NextJs</p>
+
+          <p className="">
+
+            Projecto para predecir los resultados del mundial 2026. Predice tus partidos, gana puntos, y compite con tus amigos. El proyecto se encuentra en etapa de MVP, y se espera que tenga mas funcionalidades en el futuro.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://worldcup26.anuarnazer.com/"
+              target="_blank"
+              className="btn-primary"
+            >
+              Ir al deploy
+            </a>
+          </div>
+          <img
+            src={portadaProjecto}
             alt="Thumbnail"
             className="h-auto w-full rounded-xl border border-chrome/70"
           />
