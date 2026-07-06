@@ -1,10 +1,5 @@
-import Pdm from "../../assets/images/PdM2.png";
-// import piFoods from "../../assets/images/PI-Foods.png";
+import Pdm from "../../assets/images/PdM2.png";// import piFoods from "../../assets/images/PI-Foods.png";
 import javaMovies from "../../assets/images/javaMovies.png";
-// import recipeImg from "../../assets/images/RecipeApp.png";
-// import coffeeImg from "../../assets/images/CoffeeApp.png";
-// import naikiImg from "../../assets/images/NaikiReact.png";
-// import toDoApp from "../../assets/images/toDoApp.png";
 import formApp from "../../assets/images/formApp.png";
 import xwallet from "../../assets/images/x-wallet.png"
 // import tiendaElectro from "../../assets/images/Tienda-Electro.png"
