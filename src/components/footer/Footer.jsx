@@ -26,11 +26,12 @@ const Footer = () => {
     <section id="contact-section" className="section section-anchor border-t border-chrome/70">
       <div className="container-max">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="section-kicker">Contacto</p>
-          <h2 className="section-title">¡Hablemos!</h2>
+          <p className="section-kicker">Contact</p>
+          {/* <h2 className="section-title">¡Hablemos!</h2> */}
           <p className="mt-4 text-lg text-zinc-300">
-            Siempre abierto a nuevas oportunidades y colaboraciones. Contactame
-            por cualquiera de estos canales.
+            {/* Siempre abierto a nuevas oportunidades y colaboraciones. Contactame
+            por cualquiera de estos canales. */}
+            Always up for new opportunities and collaborations—drop me a line on any of these platforms!
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-6">
@@ -55,20 +56,20 @@ const Footer = () => {
 
           <div className="mt-12 space-y-4 rounded-2xl border border-chrome/70 bg-graphite/80 p-8 text-left">
             <p className="text-xs uppercase tracking-[0.2em] text-warm">
-              Disponibilidad
+             available for interesting opportunities.
             </p>
             <h3 className="text-lg font-semibold">
-              Abierto a oportunidades interesantes
+              Open to interesting opportunities
             </h3>
             <p className="text-zinc-300">
-              Estoy buscando mi próximo desafío en una empresa que valúe la
-              arquitectura limpia, el aprendizaje continuo y donde pueda
-              contribuir a soluciones impactantes.
+              I'm looking for my next challenge in a company that values
+              clean architecture, continuous learning, and where I can
+              contribute to impactful solutions.
             </p>
             <div className="flex items-center gap-2 pt-2">
               <span className="inline-block h-2.5 w-2.5 rounded-full bg-accent"></span>
               <p className="text-sm font-medium text-zinc-300">
-                Disponible ahora
+                available now
               </p>
             </div>
           </div>

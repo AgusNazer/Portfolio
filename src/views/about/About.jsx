@@ -24,7 +24,8 @@ const About = () => {
             </div>
             <div className="mt-6 space-y-4 text-sm text-zinc-300">
               <p>
-                2+ años de experiencia en desarrollo backend. 
+                {/* 2+ años de experiencia en desarrollo backend.  */}
+                2+ years of experience in backend development. I have worked with relational and non-relational databases, and recently I have been working with AI and automation using different language models. I am very interested in continuing to learn about this topic.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="chip">Java + Spring boot</span>
@@ -41,11 +42,9 @@ const About = () => {
             <h3 className="section-title">Perfil tecnico</h3>
             <p>
           {/* Hi! 👋🏻 My name is Agustin, I'm an enthusiastic developer. */}
-          Especialista en desarrollo Backend, principalmente con Java.
-Tengo experiencia trabajando bajo metodología SCRUM. 
+          I’m a backend developer, mostly working with Java. I'm used to agile environments and working with Scrum.
 
-He trabajado con integración con bases de datos relacionales y no relacionales. Este ultimo tiempo he estado trabajando con IA y automatizaciones utilizando 
-distintos modelos de lenguaje, y estoy muy interesado en seguir aprendiendo sobre este tema.
+I have experience integrating both relational and NoSQL databases. Lately, I’ve been diving into AI and automations using different LLMs, and I’m really keen on keeping learning and growing in that space.
             </p>
             <p>
           {/* Being a creative person I have focused mainly on the frontend area..

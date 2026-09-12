@@ -32,8 +32,7 @@ const Projects = () => {
 
           <p className="">
 
-            Projecto real de alto impacto ambiental. Plataforma descentralizada de tokenización de energia, desarrollada con tecnologia Blockchain, en la red de Vara Network.
-          </p>
+High-impact real-world green project: a decentralized energy tokenization platform developed with blockchain technology on the Vara Network.          </p>
           <div className="flex flex-wrap gap-2">
             <a
               href="https://www.gaiaecotrack.com/"
@@ -55,7 +54,8 @@ const Projects = () => {
 
           <p className="">
 
-            Projecto para predecir los resultados del mundial 2026. Predice tus partidos, gana puntos, y compite con tus amigos. El proyecto se encuentra en etapa de MVP, y se espera que tenga mas funcionalidades en el futuro.
+            {/* Projecto para predecir los resultados del mundial 2026. Predice tus partidos, gana puntos, y compite con tus amigos. El proyecto se encuentra en etapa de MVP, y se espera que tenga mas funcionalidades en el futuro. */}
+          A 2026 World Cup match prediction app. Guess the scores, score points, and challenge your friends. It's currently an MVP, with plenty of new features on the way.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -78,14 +78,23 @@ const Projects = () => {
 
           <p className="">
 
-            Plataforma web inteligente para descubrir y gestionar eventos deportivos, como carreras, competiciones de CrossFit y triatlones.
+            {/* Plataforma web inteligente para descubrir y gestionar eventos deportivos, como carreras, competiciones de CrossFit y triatlones.
 
 La aplicación centraliza información que hoy está dispersa en múltiples sitios. 
 incorpora un agente de inteligencia artificial que permite:
 
 Recomendar eventos personalizados según ubicación, nivel y fechas
 Responder consultas en lenguaje natural (ej: “qué competencias hay en mayo cerca mío”)
-Actuar como un “coach digital” que ayuda a elegir la mejor competencia
+Actuar como un “coach digital” que ayuda a elegir la mejor competencia */}
+Smart web platform to discover and manage sporting events like races, CrossFit competitions, and triathlons.
+
+The app centralizes info that is currently scattered across multiple sites and features an AI agent that can:
+
+Recommend personalized events based on location, skill level, and dates.
+
+Answer natural language queries (e.g., 'What competitions are happening near me in May?').
+
+Act as a 'digital coach' to help you choose the right competition.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -108,11 +117,14 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
 
           <p className="">
 
-            Projecto desarrollado dentro de la plataforma de NoCountry para un cliente que buscaba 
+            {/* Projecto desarrollado dentro de la plataforma de NoCountry para un cliente que buscaba 
             automatizar videos para poder publicarlos en redes sociales. El core de la plataforma es 
             convertir videos a un formato vertical para shorts sin perder calidad ni foco de los objetos 
             prinicipales. Se utilizó Python para el backend, y React para el frontend. El proyecto se encuentra en etapa de MVP 
-            desarrollado, y se espera que tenga mas funcionalidades en el futuro. 
+            desarrollado, y se espera que tenga mas funcionalidades en el futuro.  */}
+          Opción 1: Estructurada y técnica (ideal para la card de un proyecto en portfolio o GitHub)
+
+"Developed within No Country for a client looking to automate social media video publishing. The platform's core feature converts horizontal videos into vertical formats for Shorts without losing quality or cropping out key subjects. Built with a Python backend and React on the frontend. Currently at a functional MVP stage, with additional features planned for future releases.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -120,7 +132,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Deploy
             </a>
           </div>
           <img
@@ -135,8 +147,9 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
 
           <p className="">
 
-            Projecto de agente inteligente que utiliza IA para realizar compras en linea de manera automatizada. El agente puede analizar productos ingresados por el usuario y tomar decisiones de 
-            compra basadas en criterios predefinidos. Puede aceptar la compra, rechazarla, o bien solicitar revision. La app es un MVP, y se encuentra en desarrollo. Tendra mas funcionalidades en el futuro.  
+            {/* Projecto de agente inteligente que utiliza IA para realizar compras en linea de manera automatizada. El agente puede analizar productos ingresados por el usuario y tomar decisiones de 
+            compra basadas en criterios predefinidos. Puede aceptar la compra, rechazarla, o bien solicitar revision. La app es un MVP, y se encuentra en desarrollo. Tendra mas funcionalidades en el futuro.   */}
+            An AI-powered purchasing agent designed to streamline and automate online shopping. It analyzes product listings against custom criteria to automatically approve, reject, or request manual review for each transaction. The project is currently in the MVP stage, with ongoing development and new features in the pipeline.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -144,7 +157,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Deploy
             </a>
           </div>
           <img
@@ -160,7 +173,8 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
 
           <p className="">
 
-            Projecto de gestion de examenes, materias, calendarios, y demas,  para facilitar la organizacion de los estudiantes.
+            {/* Projecto de gestion de examenes, materias, calendarios, y demas,  para facilitar la organizacion de los estudiantes. */}
+          An academic planner app built to take the friction out of student life. It helps users organize classes, track exam dates, manage schedules, and keep everything they need for the semester in order.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -169,7 +183,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Deploy
             </a>
           </div>
           <img
@@ -186,7 +200,8 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
 
           <p className="">
 
-            Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos.
+            {/* Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos. */}
+          Built this one with a vibe coding mindset to solve an everyday friction: hunting for jobs on Computrabajo. Instead of manually applying the same filters and scrolling through listings day after day, the app automates the entire search process so you can save time on repetitive tasks.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -195,7 +210,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Deploy
             </a>
           </div>
           <img
@@ -253,11 +268,12 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           <p className="text-sm text-warm">Java-Spring</p>
           <p className="">
 
-            Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
+            {/* Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
             El usuario puede calificar peliculas, ordernarlas segun nombre y otras caracteristicas. En este proyecto me enfoqe principalmente
             no solo en el backend, sino tambien en el deploy, hosting y servidores. Cuenta con una base de datos MySql y lo 
             interesante es que el backend y la Db estan en un servidor VPS corriendo. El cual tiene certificado SSL y varias caracteristicas
-            semejantes a un proyecto en produccion. 
+            semejantes a un proyecto en produccion.  */}
+              A movie rating and management platform developed with Java, Spring Boot, and MySQL. Users can browse, rate, and sort films through various criteria. What made this project particularly engaging was taking it all the way to production: deploying the backend and database to a self-managed VPS, configuring SSL certificates, and setting up the server infrastructure just like in a real-world enterprise workflow.
           </p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -265,21 +281,21 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Go to deploy
             </a>
             <a
               href="https://www.agusdev.online/api/movies"
               target="_blank"
               className="btn-ghost"
             >
-              Ir al json
+              Go to json
             </a>
             <a
               href="https://github.com/AgusNazer/movieproject.git"
               target="_blank"
               className="btn-ghost"
             >
-              Ir al repositorio
+              Go to repository
             </a>
           </div>
           <img
@@ -326,9 +342,10 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
           <h3 className="text-xl font-semibold">Puebla del Mar</h3>
           <p className="text-sm text-warm">NodeJs-React</p>
           <p className="text-sm text-zinc-300">
-            Proyecto real. Ecommerce desarrollado durante la etapa del proyecto
+            {/* Proyecto real. Ecommerce desarrollado durante la etapa del proyecto
             final del bootcamp Soy Henry. Es una tienda de ropa deportiva para
-            mujeres con cuenta de usuario, admin, motor de busqueda y resenas.
+            mujeres con cuenta de usuario, admin, motor de busqueda y resenas. */}
+          "A production-ready e-commerce platform built as the capstone project for the Soy Henry bootcamp. An activewear online store for women featuring user accounts, an admin dashboard, a product search engine, and a customer review system.
           </p>
 
           <div className="flex flex-wrap gap-2">
@@ -337,7 +354,7 @@ Actuar como un “coach digital” que ayuda a elegir la mejor competencia
               target="_blank"
               className="btn-primary"
             >
-              Ir al deploy
+              Go to deploy
             </a>
           </div>
           <img

@@ -64,7 +64,7 @@ const TechSkills = () => {
         <div className="flex items-center justify-between gap-6">
           <div>
             <p className="section-kicker">Tech Stack</p>
-            <h2 className="section-title">Skills & Tecnologías</h2>
+            <h2 className="section-title">Skills & Tecnologies</h2>
           </div>
           <span className="badge">Fullstack</span>
         </div>
@@ -107,7 +107,7 @@ const TechSkills = () => {
           </div>
 
           <div className="card">
-            <p className="section-kicker">Bases de Datos</p>
+            <p className="section-kicker">Data bases</p>
             <h3 className="mt-2 text-lg font-semibold">SQL & NoSQL</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               <span className="chip">PostgreSQL</span>
