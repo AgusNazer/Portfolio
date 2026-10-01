@@ -54,33 +54,34 @@ const Projects = () => {
           </div>
 
           <div className="card flex flex-col gap-4 text-left">
-  <h3 className="text-xl font-semibold">Tracker pay rate</h3>
-  <p className="text-sm text-warm">Python-Supabase-NextJs</p>
+            <h3 className="text-xl font-semibold">Tracker pay rate</h3>
+            <p className="text-sm text-warm">Python-Supabase-NextJs</p>
 
-  <p>
-    Sistema personal de trackeo de cobros para gestionar y seguir el estado
-    de los pagos. La idea es que sea de código abierto y lo utilicemos los
-    miembros del equipo que trabajamos en la misma consultora para llevar un
-    control de los pagos, ya que son por horas y con distintos pay rates.
-  </p>
+            <p>
+              Sistema personal de trackeo de cobros para gestionar y seguir el
+              estado de los pagos. La idea es que sea de código abierto y lo
+              utilicemos los miembros del equipo que trabajamos en la misma
+              consultora para llevar un control de los pagos, ya que son por
+              horas y con distintos pay rates.
+            </p>
 
-  <div className="flex flex-wrap gap-2">
-    <a
-      href="https://tracker.anuarnazer.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn-primary"
-    >
-      Ir al deploy
-    </a>
-  </div>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://tracker.anuarnazer.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Ir al deploy
+              </a>
+            </div>
 
-  <img
-    src={tracker}
-    alt="Thumbnail"
-    className="h-auto w-full rounded-xl border border-chrome/70"
-  />
-</div>
+            <img
+              src={tracker}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
+          </div>
 
           <div className="card flex flex-col gap-4 text-left">
             <h3 className="text-xl font-semibold">World Cup 26 predictor</h3>
