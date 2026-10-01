@@ -1,16 +1,17 @@
-import Pdm from "../../assets/images/PdM2.png";// import piFoods from "../../assets/images/PI-Foods.png";
+import Pdm from "../../assets/images/PdM2.png"; // import piFoods from "../../assets/images/PI-Foods.png";
 import javaMovies from "../../assets/images/javaMovies.png";
 import formApp from "../../assets/images/formApp.png";
-import xwallet from "../../assets/images/x-wallet.png"
+import xwallet from "../../assets/images/x-wallet.png";
 // import tiendaElectro from "../../assets/images/Tienda-Electro.png"
-import gaia from "../../assets/images/gaia.png"
-import finalesya from "../../assets/images/homep.png"
-import postulate from "../../assets/images/postulateApp.jpeg"
-import agentecompra from "../../assets/images/agentecompra.jpeg"
-import hacelocorto from "../../assets/images/hacelocorto.png"
+import gaia from "../../assets/images/gaia.png";
+import finalesya from "../../assets/images/homep.png";
+import postulate from "../../assets/images/postulateApp.jpeg";
+import agentecompra from "../../assets/images/agentecompra.jpeg";
+import hacelocorto from "../../assets/images/hacelocorto.png";
 // import speakEasy from "../../assets/images/SpeakEasy.png"
-import sportevents from "../../assets/images/sportevents.png"
-import portadaProjecto from "../../assets/images/portadaProjecto.png"
+import sportevents from "../../assets/images/sportevents.png";
+import portadaProjecto from "../../assets/images/portadaProjecto.png";
+import tracker from "../../assets/images/tracker.png";
 
 const Projects = () => {
   return (
@@ -25,60 +26,93 @@ const Projects = () => {
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">Gaia Ecotrack</h3>
+            <p className="text-sm text-warm">
+              Python-NodeJs-React-Rust-Gear protocol
+            </p>
 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">Gaia Ecotrack</h3>
-          <p className="text-sm text-warm">Python-NodeJs-React-Rust-Gear protocol</p>
-
-          <p className="">
-
-High-impact real-world green project: a decentralized energy tokenization platform developed with blockchain technology on the Vara Network.          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://www.gaiaecotrack.com/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Ir al deploy
-            </a>
+            <p className="">
+              High-impact real-world green project: a decentralized energy
+              tokenization platform developed with blockchain technology on the
+              Vara Network.{" "}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://www.gaiaecotrack.com/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Ir al deploy
+              </a>
+            </div>
+            <img
+              src={gaia}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={gaia}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">World Cup 26 predictor</h3>
-          <p className="text-sm text-warm">Docker-Python-FastApi-NextJs</p>
 
-          <p className="">
+          <div className="card flex flex-col gap-4 text-left">
+  <h3 className="text-xl font-semibold">Tracker pay rate</h3>
+  <p className="text-sm text-warm">Python-Supabase-NextJs</p>
 
-            {/* Projecto para predecir los resultados del mundial 2026. Predice tus partidos, gana puntos, y compite con tus amigos. El proyecto se encuentra en etapa de MVP, y se espera que tenga mas funcionalidades en el futuro. */}
-          A 2026 World Cup match prediction app. Guess the scores, score points, and challenge your friends. It's currently an MVP, with plenty of new features on the way.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://worldcup26.anuarnazer.com/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Ir al deploy
-            </a>
+  <p>
+    Sistema personal de trackeo de cobros para gestionar y seguir el estado
+    de los pagos. La idea es que sea de código abierto y lo utilicemos los
+    miembros del equipo que trabajamos en la misma consultora para llevar un
+    control de los pagos, ya que son por horas y con distintos pay rates.
+  </p>
+
+  <div className="flex flex-wrap gap-2">
+    <a
+      href="https://tracker.anuarnazer.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-primary"
+    >
+      Ir al deploy
+    </a>
+  </div>
+
+  <img
+    src={tracker}
+    alt="Thumbnail"
+    className="h-auto w-full rounded-xl border border-chrome/70"
+  />
+</div>
+
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">World Cup 26 predictor</h3>
+            <p className="text-sm text-warm">Docker-Python-FastApi-NextJs</p>
+
+            <p className="">
+              {/* Projecto para predecir los resultados del mundial 2026. Predice tus partidos, gana puntos, y compite con tus amigos. El proyecto se encuentra en etapa de MVP, y se espera que tenga mas funcionalidades en el futuro. */}
+              A 2026 World Cup match prediction app. Guess the scores, score
+              points, and challenge your friends. It's currently an MVP, with
+              plenty of new features on the way.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://worldcup26.anuarnazer.com/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Ir al deploy
+              </a>
+            </div>
+            <img
+              src={portadaProjecto}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={portadaProjecto}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">Sport Events</h3>
-          <p className="text-sm text-warm">Spring boot + Python + Next js</p>
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">Sport Events</h3>
+            <p className="text-sm text-warm">Spring boot + Python + Next js</p>
 
-          <p className="">
-
-            {/* Plataforma web inteligente para descubrir y gestionar eventos deportivos, como carreras, competiciones de CrossFit y triatlones.
+            <p className="">
+              {/* Plataforma web inteligente para descubrir y gestionar eventos deportivos, como carreras, competiciones de CrossFit y triatlones.
 
 La aplicación centraliza información que hoy está dispersa en múltiples sitios. 
 incorpora un agente de inteligencia artificial que permite:
@@ -86,141 +120,155 @@ incorpora un agente de inteligencia artificial que permite:
 Recomendar eventos personalizados según ubicación, nivel y fechas
 Responder consultas en lenguaje natural (ej: “qué competencias hay en mayo cerca mío”)
 Actuar como un “coach digital” que ayuda a elegir la mejor competencia */}
-Smart web platform to discover and manage sporting events like races, CrossFit competitions, and triathlons.
-
-The app centralizes info that is currently scattered across multiple sites and features an AI agent that can:
-
-Recommend personalized events based on location, skill level, and dates.
-
-Answer natural language queries (e.g., 'What competitions are happening near me in May?').
-
-Act as a 'digital coach' to help you choose the right competition.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://sportevents.anuarnazer.com/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Ir al deploy
-            </a>
+              Smart web platform to discover and manage sporting events like
+              races, CrossFit competitions, and triathlons. The app centralizes
+              info that is currently scattered across multiple sites and
+              features an AI agent that can: Recommend personalized events based
+              on location, skill level, and dates. Answer natural language
+              queries (e.g., 'What competitions are happening near me in May?').
+              Act as a 'digital coach' to help you choose the right competition.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://sportevents.anuarnazer.com/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Ir al deploy
+              </a>
+            </div>
+            <img
+              src={sportevents}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={sportevents}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">Hacelo Corto</h3>
-          <p className="text-sm text-warm">FastApi-Docker-Redis-React js</p>
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">Hacelo Corto</h3>
+            <p className="text-sm text-warm">FastApi-Docker-Redis-React js</p>
 
-          <p className="">
-
-            {/* Projecto desarrollado dentro de la plataforma de NoCountry para un cliente que buscaba 
+            <p className="">
+              {/* Projecto desarrollado dentro de la plataforma de NoCountry para un cliente que buscaba 
             automatizar videos para poder publicarlos en redes sociales. El core de la plataforma es 
             convertir videos a un formato vertical para shorts sin perder calidad ni foco de los objetos 
             prinicipales. Se utilizó Python para el backend, y React para el frontend. El proyecto se encuentra en etapa de MVP 
             desarrollado, y se espera que tenga mas funcionalidades en el futuro.  */}
-          Opción 1: Estructurada y técnica (ideal para la card de un proyecto en portfolio o GitHub)
-
-"Developed within No Country for a client looking to automate social media video publishing. The platform's core feature converts horizontal videos into vertical formats for Shorts without losing quality or cropping out key subjects. Built with a Python backend and React on the frontend. Currently at a functional MVP stage, with additional features planned for future releases.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://hacelo-corto-two.vercel.app/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Deploy
-            </a>
+              Opción 1: Estructurada y técnica (ideal para la card de un
+              proyecto en portfolio o GitHub) "Developed within No Country for a
+              client looking to automate social media video publishing. The
+              platform's core feature converts horizontal videos into vertical
+              formats for Shorts without losing quality or cropping out key
+              subjects. Built with a Python backend and React on the frontend.
+              Currently at a functional MVP stage, with additional features
+              planned for future releases.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://hacelo-corto-two.vercel.app/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Deploy
+              </a>
+            </div>
+            <img
+              src={hacelocorto}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={hacelocorto}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">IA Agent purchase!</h3>
-          <p className="text-sm text-warm">Python + Langchain + LLM + React</p>
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">IA Agent purchase!</h3>
+            <p className="text-sm text-warm">
+              Python + Langchain + LLM + React
+            </p>
 
-          <p className="">
-
-            {/* Projecto de agente inteligente que utiliza IA para realizar compras en linea de manera automatizada. El agente puede analizar productos ingresados por el usuario y tomar decisiones de 
+            <p className="">
+              {/* Projecto de agente inteligente que utiliza IA para realizar compras en linea de manera automatizada. El agente puede analizar productos ingresados por el usuario y tomar decisiones de 
             compra basadas en criterios predefinidos. Puede aceptar la compra, rechazarla, o bien solicitar revision. La app es un MVP, y se encuentra en desarrollo. Tendra mas funcionalidades en el futuro.   */}
-            An AI-powered purchasing agent designed to streamline and automate online shopping. It analyzes product listings against custom criteria to automatically approve, reject, or request manual review for each transaction. The project is currently in the MVP stage, with ongoing development and new features in the pipeline.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://agent-validation.anuarnazer.com/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Deploy
-            </a>
+              An AI-powered purchasing agent designed to streamline and automate
+              online shopping. It analyzes product listings against custom
+              criteria to automatically approve, reject, or request manual
+              review for each transaction. The project is currently in the MVP
+              stage, with ongoing development and new features in the pipeline.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://agent-validation.anuarnazer.com/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Deploy
+              </a>
+            </div>
+            <img
+              src={agentecompra}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={agentecompra}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">FinalesYa!</h3>
-          <p className="text-sm text-warm">ASP .NET + PostgresSql + ReactJs</p>
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">FinalesYa!</h3>
+            <p className="text-sm text-warm">
+              ASP .NET + PostgresSql + ReactJs
+            </p>
 
-          <p className="">
-
-            {/* Projecto de gestion de examenes, materias, calendarios, y demas,  para facilitar la organizacion de los estudiantes. */}
-          An academic planner app built to take the friction out of student life. It helps users organize classes, track exam dates, manage schedules, and keep everything they need for the semester in order.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              // href="https://finalesya.anuarnazer.com/"
-              href="https://finalesyafrontend.netlify.app/login"
-              target="_blank"
-              className="btn-primary"
-            >
-              Deploy
-            </a>
+            <p className="">
+              {/* Projecto de gestion de examenes, materias, calendarios, y demas,  para facilitar la organizacion de los estudiantes. */}
+              An academic planner app built to take the friction out of student
+              life. It helps users organize classes, track exam dates, manage
+              schedules, and keep everything they need for the semester in
+              order.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                // href="https://finalesya.anuarnazer.com/"
+                href="https://finalesyafrontend.netlify.app/login"
+                target="_blank"
+                className="btn-primary"
+              >
+                Deploy
+              </a>
+            </div>
+            <img
+              src={finalesya}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={finalesya}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">postulateApp</h3>
-          <span className="chip w-fit">En desarrollo</span>
-          <p className="text-sm text-warm">Node Js</p>
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">postulateApp</h3>
+            <span className="chip w-fit">En desarrollo</span>
+            <p className="text-sm text-warm">Node Js</p>
 
-          <p className="">
-
-            {/* Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos. */}
-          Built this one with a vibe coding mindset to solve an everyday friction: hunting for jobs on Computrabajo. Instead of manually applying the same filters and scrolling through listings day after day, the app automates the entire search process so you can save time on repetitive tasks.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              // href="https://jobs.anuarnazer.com/"
-              href="https://postulationapp.onrender.com/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Deploy
-            </a>
+            <p className="">
+              {/* Projecto hecho estilo "vibe coding". Aplicacion que busca ofertas de trabajo especificamente en el sitio Computrabajo. Faciliar tener que ingresar al sitio y estar reingresando filtros y haciendo busquedas manuales. La idea es automatizar la busqueda de ofertas y asi optimizar tiempo en procesos repetitivos. */}
+              Built this one with a vibe coding mindset to solve an everyday
+              friction: hunting for jobs on Computrabajo. Instead of manually
+              applying the same filters and scrolling through listings day after
+              day, the app automates the entire search process so you can save
+              time on repetitive tasks.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                // href="https://jobs.anuarnazer.com/"
+                href="https://postulationapp.onrender.com/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Deploy
+              </a>
+            </div>
+            <img
+              src={postulate}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={postulate}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
 
-        {/* <div className="card flex flex-col gap-4 text-left">
+          {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Tienda Electro</h3>
           <p className="text-sm text-warm">Java-Spring-ReactJs</p>
           <p className="text-sm text-accentSoft">
@@ -263,49 +311,54 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div>  */}
 
-      <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">Movie rater</h3>
-          <p className="text-sm text-warm">Java-Spring</p>
-          <p className="">
-
-            {/* Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">Movie rater</h3>
+            <p className="text-sm text-warm">Java-Spring</p>
+            <p className="">
+              {/* Es un crud de peliculas, donde se ha utilizado java y spring boot como tecnologias prinicipales.
             El usuario puede calificar peliculas, ordernarlas segun nombre y otras caracteristicas. En este proyecto me enfoqe principalmente
             no solo en el backend, sino tambien en el deploy, hosting y servidores. Cuenta con una base de datos MySql y lo 
             interesante es que el backend y la Db estan en un servidor VPS corriendo. El cual tiene certificado SSL y varias caracteristicas
             semejantes a un proyecto en produccion.  */}
-              A movie rating and management platform developed with Java, Spring Boot, and MySQL. Users can browse, rate, and sort films through various criteria. What made this project particularly engaging was taking it all the way to production: deploying the backend and database to a self-managed VPS, configuring SSL certificates, and setting up the server infrastructure just like in a real-world enterprise workflow.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://phenomenal-speculoos-8ceaca.netlify.app/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Go to deploy
-            </a>
-            <a
-              href="https://www.agusdev.online/api/movies"
-              target="_blank"
-              className="btn-ghost"
-            >
-              Go to json
-            </a>
-            <a
-              href="https://github.com/AgusNazer/movieproject.git"
-              target="_blank"
-              className="btn-ghost"
-            >
-              Go to repository
-            </a>
+              A movie rating and management platform developed with Java, Spring
+              Boot, and MySQL. Users can browse, rate, and sort films through
+              various criteria. What made this project particularly engaging was
+              taking it all the way to production: deploying the backend and
+              database to a self-managed VPS, configuring SSL certificates, and
+              setting up the server infrastructure just like in a real-world
+              enterprise workflow.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://phenomenal-speculoos-8ceaca.netlify.app/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Go to deploy
+              </a>
+              <a
+                href="https://www.agusdev.online/api/movies"
+                target="_blank"
+                className="btn-ghost"
+              >
+                Go to json
+              </a>
+              <a
+                href="https://github.com/AgusNazer/movieproject.git"
+                target="_blank"
+                className="btn-ghost"
+              >
+                Go to repository
+              </a>
+            </div>
+            <img
+              src={javaMovies}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={javaMovies}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div> 
-        
-        {/* <div className="card flex flex-col gap-4 text-left">
+
+          {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">X-Wallet</h3>
           <p className="text-sm text-warm">NodeJs-React</p>
           <p className="text-sm text-accentSoft">Falta optimizar cargado de inicio.</p>
@@ -338,33 +391,36 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div>  */}
 
-        <div className="card flex flex-col gap-4 text-left">
-          <h3 className="text-xl font-semibold">Puebla del Mar</h3>
-          <p className="text-sm text-warm">NodeJs-React</p>
-          <p className="text-sm text-zinc-300">
-            {/* Proyecto real. Ecommerce desarrollado durante la etapa del proyecto
+          <div className="card flex flex-col gap-4 text-left">
+            <h3 className="text-xl font-semibold">Puebla del Mar</h3>
+            <p className="text-sm text-warm">NodeJs-React</p>
+            <p className="text-sm text-zinc-300">
+              {/* Proyecto real. Ecommerce desarrollado durante la etapa del proyecto
             final del bootcamp Soy Henry. Es una tienda de ropa deportiva para
             mujeres con cuenta de usuario, admin, motor de busqueda y resenas. */}
-          "A production-ready e-commerce platform built as the capstone project for the Soy Henry bootcamp. An activewear online store for women featuring user accounts, an admin dashboard, a product search engine, and a customer review system.
-          </p>
+              "A production-ready e-commerce platform built as the capstone
+              project for the Soy Henry bootcamp. An activewear online store for
+              women featuring user accounts, an admin dashboard, a product
+              search engine, and a customer review system.
+            </p>
 
-          <div className="flex flex-wrap gap-2">
-            <a
-              href="https://soy-puebla-deploy.vercel.app/"
-              target="_blank"
-              className="btn-primary"
-            >
-              Go to deploy
-            </a>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://soy-puebla-deploy.vercel.app/"
+                target="_blank"
+                className="btn-primary"
+              >
+                Go to deploy
+              </a>
+            </div>
+            <img
+              src={Pdm}
+              alt="Thumbnail"
+              className="h-auto w-full rounded-xl border border-chrome/70"
+            />
           </div>
-          <img
-            src={Pdm}
-            alt="Thumbnail"
-            className="h-auto w-full rounded-xl border border-chrome/70"
-          />
-        </div>
 
-        {/* <div className="card flex flex-col gap-4 text-left">
+          {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Api-Foods</h3>
           <p className="text-sm text-warm">NodeJs-React-PostgreSql</p>
           <p className="">
@@ -388,7 +444,7 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div> */}
 
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Speak easy</h1>
           <h3 className="mb-2">Aplicación Flutter </h3>
           <p className="">
@@ -412,9 +468,7 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div> */}
 
-        
-        
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ReactJs e-commerce</h1>
           <h3 className="mb-2">ReactJs - Firebase app</h3>
           <p className="">
@@ -438,7 +492,7 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div> */}
 
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">ToDo App</h1>
           <h3 className="mb-2">React Js - mongoDb</h3>
           <p className="">
@@ -461,7 +515,7 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div> */}
 
-        {/* <div className="card flex flex-col gap-4 text-left">
+          {/* <div className="card flex flex-col gap-4 text-left">
           <h3 className="text-xl font-semibold">Henry challenge</h3>
           <p className="text-sm text-warm">ReactJs vite - mongoDb</p>
           <p className="">
@@ -484,7 +538,7 @@ Act as a 'digital coach' to help you choose the right competition.
           />
         </div> */}
 
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Your calorie App</h1>
           <h3 className="mb-2">Javascript - Css</h3>
           <p className="">
@@ -505,7 +559,7 @@ Act as a 'digital coach' to help you choose the right competition.
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div> */}
-        {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
+          {/* <div className="flex flex-col justify-between h-full p-4 bg-white bg-opacity-30 rounded-lg shadow-md">
           <h1 className="text-2xl">Cofee-app</h1>
           <h3 className="mb-2">Mi primera app - Html - Css</h3>
           <p className="">
@@ -526,9 +580,8 @@ Act as a 'digital coach' to help you choose the right competition.
             className="w-full h-auto mt-4 rounded-lg"
           />
         </div> */}
-            
         </div>
-                {/* <div className="card">
+        {/* <div className="card">
               <div className="flex items-center gap-2 text-xs text-zinc-400">
                 <span className="h-2 w-2 rounded-full bg-accent"></span>
                 <span className="h-2 w-2 rounded-full bg-violet"></span>
